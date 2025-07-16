@@ -1,0 +1,330 @@
+[0.296s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.297s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffbd5b1690>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffbd52fd30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffbd52fd30>>, mixin_verb=('build',))
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.720s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.721s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.721s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rover/my_rover_ws/src'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.774s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.775s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extension 'ignore'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extension 'ignore_ament_install'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extensions ['colcon_pkg']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extension 'colcon_pkg'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extensions ['colcon_meta']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extension 'colcon_meta'
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extensions ['ros']
+[0.776s] Level 1:colcon.colcon_core.package_identification:_identify(gps_navigator_pkg) by extension 'ros'
+[0.782s] DEBUG:colcon.colcon_core.package_identification:Package 'gps_navigator_pkg' with type 'ros.ament_python' and name 'gps_navigator_pkg'
+[0.782s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extension 'ignore'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extension 'ignore_ament_install'
+[0.783s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extensions ['colcon_pkg']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extension 'colcon_pkg'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extensions ['colcon_meta']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extension 'colcon_meta'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extensions ['ros']
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(keyboard_controller_pkg) by extension 'ros'
+[0.785s] DEBUG:colcon.colcon_core.package_identification:Package 'keyboard_controller_pkg' with type 'ros.ament_python' and name 'keyboard_controller_pkg'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_safety_pkg) by extension 'ros'
+[0.787s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_safety_pkg' with type 'ros.ament_python' and name 'lidar_safety_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extensions ['ignore', 'ignore_ament_install']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extension 'ignore_ament_install'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extensions ['colcon_pkg']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extension 'colcon_pkg'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extensions ['colcon_meta']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extension 'colcon_meta'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extensions ['ros']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(my_rover_launch) by extension 'ros'
+[0.790s] DEBUG:colcon.colcon_core.package_identification:Package 'my_rover_launch' with type 'ros.ament_python' and name 'my_rover_launch'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(rplidar_ros) by extension 'ros'
+[0.792s] DEBUG:colcon.colcon_core.package_identification:Package 'rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.839s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.844s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/rover/mini_miti_ws/install
+[0.845s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/rover/rover_workspace/install
+[0.848s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 331 installed packages in /opt/ros/humble
+[0.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'cmake_target' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'gps_navigator_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.941s] DEBUG:colcon.colcon_core.verb:Building package 'gps_navigator_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rover/my_rover_ws/src/build/gps_navigator_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rover/my_rover_ws/src/install/gps_navigator_pkg', 'merge_install': False, 'path': '/home/rover/my_rover_ws/src/gps_navigator_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'cmake_target' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'keyboard_controller_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.942s] DEBUG:colcon.colcon_core.verb:Building package 'keyboard_controller_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rover/my_rover_ws/src/build/keyboard_controller_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg', 'merge_install': False, 'path': '/home/rover/my_rover_ws/src/keyboard_controller_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'cmake_target' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'lidar_safety_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_safety_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rover/my_rover_ws/src/build/lidar_safety_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rover/my_rover_ws/src/install/lidar_safety_pkg', 'merge_install': False, 'path': '/home/rover/my_rover_ws/src/lidar_safety_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'cmake_clean_first' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'ament_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'catkin_cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'my_rover_launch' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.945s] DEBUG:colcon.colcon_core.verb:Building package 'my_rover_launch' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rover/my_rover_ws/src/build/my_rover_launch', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rover/my_rover_ws/src/install/my_rover_launch', 'merge_install': False, 'path': '/home/rover/my_rover_ws/src/my_rover_launch', 'symlink_install': False, 'test_result_base': None}
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.946s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rover/my_rover_ws/src/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rover/my_rover_ws/src/install/rplidar_ros', 'merge_install': False, 'path': '/home/rover/my_rover_ws/src/rplidar_ros', 'symlink_install': False, 'test_result_base': None}
+[0.946s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.948s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.949s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rover/my_rover_ws/src/gps_navigator_pkg' with build type 'ament_python'
+[0.949s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_navigator_pkg', 'ament_prefix_path')
+[0.955s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.955s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/hook/ament_prefix_path.ps1'
+[0.957s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/hook/ament_prefix_path.dsv'
+[0.958s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/hook/ament_prefix_path.sh'
+[0.960s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.960s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.969s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rover/my_rover_ws/src/keyboard_controller_pkg' with build type 'ament_python'
+[0.969s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_controller_pkg', 'ament_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/hook/ament_prefix_path.ps1'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/hook/ament_prefix_path.dsv'
+[0.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/hook/ament_prefix_path.sh'
+[0.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.982s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rover/my_rover_ws/src/lidar_safety_pkg' with build type 'ament_python'
+[0.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_safety_pkg', 'ament_prefix_path')
+[0.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/hook/ament_prefix_path.ps1'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/hook/ament_prefix_path.dsv'
+[0.985s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/hook/ament_prefix_path.sh'
+[0.986s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.987s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rover/my_rover_ws/src/my_rover_launch' with build type 'ament_python'
+[0.993s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_rover_launch', 'ament_prefix_path')
+[0.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/hook/ament_prefix_path.ps1'
+[0.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/hook/ament_prefix_path.dsv'
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/hook/ament_prefix_path.sh'
+[0.997s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.997s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.004s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rover/my_rover_ws/src/rplidar_ros' with build type 'ament_cmake'
+[1.004s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rover/my_rover_ws/src/rplidar_ros'
+[1.005s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.005s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rover/my_rover_ws/src/gps_navigator_pkg'
+[1.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.150s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rover/my_rover_ws/src/keyboard_controller_pkg'
+[2.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.722s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rover/my_rover_ws/src/lidar_safety_pkg'
+[2.723s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.723s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.304s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rover/my_rover_ws/src/my_rover_launch'
+[3.305s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.306s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover/my_rover_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rover/my_rover_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/rover/my_rover_ws/src/install/rplidar_ros
+[4.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover/my_rover_ws/src/lidar_safety_pkg': PYTHONPATH=/home/rover/my_rover_ws/src/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_safety_pkg build --build-base /home/rover/my_rover_ws/src/build/lidar_safety_pkg/build install --record /home/rover/my_rover_ws/src/build/lidar_safety_pkg/install.log --single-version-externally-managed install_data
+[4.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover/my_rover_ws/src/my_rover_launch': PYTHONPATH=/home/rover/my_rover_ws/src/build/my_rover_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/my_rover_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_rover_launch build --build-base /home/rover/my_rover_ws/src/build/my_rover_launch/build install --record /home/rover/my_rover_ws/src/build/my_rover_launch/install.log --single-version-externally-managed install_data
+[4.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover/my_rover_ws/src/gps_navigator_pkg': PYTHONPATH=/home/rover/my_rover_ws/src/build/gps_navigator_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/gps_navigator_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gps_navigator_pkg build --build-base /home/rover/my_rover_ws/src/build/gps_navigator_pkg/build install --record /home/rover/my_rover_ws/src/build/gps_navigator_pkg/install.log --single-version-externally-managed install_data
+[4.327s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover/my_rover_ws/src/keyboard_controller_pkg': PYTHONPATH=/home/rover/my_rover_ws/src/build/keyboard_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/keyboard_controller_pkg build --build-base /home/rover/my_rover_ws/src/build/keyboard_controller_pkg/build install --record /home/rover/my_rover_ws/src/build/keyboard_controller_pkg/install.log --single-version-externally-managed install_data
+[4.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover/my_rover_ws/src/lidar_safety_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/src/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_safety_pkg build --build-base /home/rover/my_rover_ws/src/build/lidar_safety_pkg/build install --record /home/rover/my_rover_ws/src/build/lidar_safety_pkg/install.log --single-version-externally-managed install_data
+[4.912s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/lidar_safety_pkg' for CMake module files
+[4.914s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/lidar_safety_pkg' for CMake config files
+[4.915s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/lib'
+[4.915s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/bin'
+[4.916s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/lib/pkgconfig/lidar_safety_pkg.pc'
+[4.916s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/lib/python3.10/site-packages'
+[4.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_safety_pkg', 'pythonpath')
+[4.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/hook/pythonpath.ps1'
+[4.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/hook/pythonpath.dsv'
+[4.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/hook/pythonpath.sh'
+[4.920s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/bin'
+[4.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_safety_pkg)
+[4.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/package.ps1'
+[4.923s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/package.dsv'
+[4.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/package.sh'
+[4.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/package.bash'
+[4.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/lidar_safety_pkg/package.zsh'
+[4.930s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rover/my_rover_ws/src/install/lidar_safety_pkg/share/colcon-core/packages/lidar_safety_pkg)
+[5.040s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/my_rover_launch' for CMake module files
+[5.041s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/my_rover_launch' for CMake config files
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/my_rover_launch/lib'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/my_rover_launch/bin'
+[5.043s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/my_rover_launch/lib/pkgconfig/my_rover_launch.pc'
+[5.044s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/my_rover_launch/lib/python3.10/site-packages'
+[5.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_rover_launch', 'pythonpath')
+[5.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/hook/pythonpath.ps1'
+[5.046s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover/my_rover_ws/src/my_rover_launch' returned '0': PYTHONPATH=/home/rover/my_rover_ws/src/build/my_rover_launch/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/my_rover_launch/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/my_rover_launch build --build-base /home/rover/my_rover_ws/src/build/my_rover_launch/build install --record /home/rover/my_rover_ws/src/build/my_rover_launch/install.log --single-version-externally-managed install_data
+[5.047s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/hook/pythonpath.dsv'
+[5.048s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/hook/pythonpath.sh'
+[5.049s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/my_rover_launch/bin'
+[5.049s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_rover_launch)
+[5.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/package.ps1'
+[5.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/package.dsv'
+[5.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/package.sh'
+[5.054s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/package.bash'
+[5.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/my_rover_launch/share/my_rover_launch/package.zsh'
+[5.056s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rover/my_rover_ws/src/install/my_rover_launch/share/colcon-core/packages/my_rover_launch)
+[5.067s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg' for CMake module files
+[5.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover/my_rover_ws/src/keyboard_controller_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/src/build/keyboard_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/keyboard_controller_pkg build --build-base /home/rover/my_rover_ws/src/build/keyboard_controller_pkg/build install --record /home/rover/my_rover_ws/src/build/keyboard_controller_pkg/install.log --single-version-externally-managed install_data
+[5.069s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg' for CMake config files
+[5.070s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/lib'
+[5.071s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/bin'
+[5.071s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/lib/pkgconfig/keyboard_controller_pkg.pc'
+[5.071s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/lib/python3.10/site-packages'
+[5.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('keyboard_controller_pkg', 'pythonpath')
+[5.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/hook/pythonpath.ps1'
+[5.074s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/hook/pythonpath.dsv'
+[5.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/hook/pythonpath.sh'
+[5.076s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/bin'
+[5.076s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(keyboard_controller_pkg)
+[5.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/package.ps1'
+[5.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/package.dsv'
+[5.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/package.sh'
+[5.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/package.bash'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/keyboard_controller_pkg/package.zsh'
+[5.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rover/my_rover_ws/src/install/keyboard_controller_pkg/share/colcon-core/packages/keyboard_controller_pkg)
+[5.084s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/gps_navigator_pkg' for CMake module files
+[5.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover/my_rover_ws/src/gps_navigator_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/src/build/gps_navigator_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/src/install/gps_navigator_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/gps_navigator_pkg build --build-base /home/rover/my_rover_ws/src/build/gps_navigator_pkg/build install --record /home/rover/my_rover_ws/src/build/gps_navigator_pkg/install.log --single-version-externally-managed install_data
+[5.086s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/gps_navigator_pkg' for CMake config files
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/lib'
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/bin'
+[5.087s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/lib/pkgconfig/gps_navigator_pkg.pc'
+[5.088s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/lib/python3.10/site-packages'
+[5.088s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_navigator_pkg', 'pythonpath')
+[5.089s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/hook/pythonpath.ps1'
+[5.090s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/hook/pythonpath.dsv'
+[5.090s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/hook/pythonpath.sh'
+[5.092s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/bin'
+[5.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_navigator_pkg)
+[5.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/package.ps1'
+[5.094s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/package.dsv'
+[5.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/package.sh'
+[5.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/package.bash'
+[5.096s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/gps_navigator_pkg/package.zsh'
+[5.097s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rover/my_rover_ws/src/install/gps_navigator_pkg/share/colcon-core/packages/gps_navigator_pkg)
+[6.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover/my_rover_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/rover/my_rover_ws/src/rplidar_ros -DCMAKE_INSTALL_PREFIX=/home/rover/my_rover_ws/src/install/rplidar_ros
+[6.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover/my_rover_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rover/my_rover_ws/src/build/rplidar_ros -- -j6 -l6
+[30.641s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover/my_rover_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/rover/my_rover_ws/src/build/rplidar_ros -- -j6 -l6
+[30.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rover/my_rover_ws/src/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rover/my_rover_ws/src/build/rplidar_ros
+[30.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[30.716s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros' for CMake module files
+[30.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rover/my_rover_ws/src/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/rover/my_rover_ws/src/build/rplidar_ros
+[30.717s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros' for CMake config files
+[30.718s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[30.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[30.720s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[30.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[30.722s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/lib'
+[30.722s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/bin'
+[30.722s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[30.723s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/lib/python3.10/site-packages'
+[30.723s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/bin'
+[30.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[30.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[30.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[30.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[30.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[30.730s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rover/my_rover_ws/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[30.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rplidar_ros)
+[30.732s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros' for CMake module files
+[30.733s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros' for CMake config files
+[30.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('rplidar_ros', 'cmake_prefix_path')
+[30.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.ps1'
+[30.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.dsv'
+[30.736s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/hook/cmake_prefix_path.sh'
+[30.738s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/lib'
+[30.738s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/bin'
+[30.738s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/lib/pkgconfig/rplidar_ros.pc'
+[30.739s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/lib/python3.10/site-packages'
+[30.739s] Level 1:colcon.colcon_core.environment:checking '/home/rover/my_rover_ws/src/install/rplidar_ros/bin'
+[30.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.ps1'
+[30.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.dsv'
+[30.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.sh'
+[30.746s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.bash'
+[30.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/rover/my_rover_ws/src/install/rplidar_ros/share/rplidar_ros/package.zsh'
+[30.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rover/my_rover_ws/src/install/rplidar_ros/share/colcon-core/packages/rplidar_ros)
+[30.749s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[30.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[30.752s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[30.752s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[30.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[30.872s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[30.873s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[30.937s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[30.938s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover/my_rover_ws/src/install/local_setup.ps1'
+[30.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rover/my_rover_ws/src/install/_local_setup_util_ps1.py'
+[30.945s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover/my_rover_ws/src/install/setup.ps1'
+[30.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover/my_rover_ws/src/install/local_setup.sh'
+[30.950s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rover/my_rover_ws/src/install/_local_setup_util_sh.py'
+[30.952s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover/my_rover_ws/src/install/setup.sh'
+[30.955s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover/my_rover_ws/src/install/local_setup.bash'
+[30.957s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover/my_rover_ws/src/install/setup.bash'
+[30.961s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rover/my_rover_ws/src/install/local_setup.zsh'
+[30.963s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rover/my_rover_ws/src/install/setup.zsh'

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "safety_interfaces__py",
+		"source" : "/home/rover/my_rover_ws/build/safety_interfaces/safety_interfaces__py"
+	}
+}

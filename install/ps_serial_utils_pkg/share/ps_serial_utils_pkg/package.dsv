@@ -1,0 +1,6 @@
+source;share/ps_serial_utils_pkg/hook/pythonpath.ps1
+source;share/ps_serial_utils_pkg/hook/pythonpath.dsv
+source;share/ps_serial_utils_pkg/hook/pythonpath.sh
+source;share/ps_serial_utils_pkg/hook/ament_prefix_path.ps1
+source;share/ps_serial_utils_pkg/hook/ament_prefix_path.dsv
+source;share/ps_serial_utils_pkg/hook/ament_prefix_path.sh

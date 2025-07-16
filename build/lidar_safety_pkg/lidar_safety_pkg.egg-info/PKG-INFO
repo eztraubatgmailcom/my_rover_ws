@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lidar-safety-pkg
+Version: 0.0.0
+Summary: LIDAR-based obstacle detection node that publishes stop commands
+Home-page: UNKNOWN
+Maintainer: rover
+Maintainer-email: rover@todo.todo
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

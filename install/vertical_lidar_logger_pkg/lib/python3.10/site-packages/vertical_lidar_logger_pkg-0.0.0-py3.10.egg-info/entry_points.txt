@@ -1,0 +1,3 @@
+[console_scripts]
+vertical_lidar_logger = vertical_lidar_logger_pkg.vertical_lidar_logger:main
+

@@ -1,0 +1,4 @@
+[console_scripts]
+read_nav_external = gps_navigator_pkg.read_nav_external:main
+serial_simple = gps_navigator_pkg.serial_simple:main
+

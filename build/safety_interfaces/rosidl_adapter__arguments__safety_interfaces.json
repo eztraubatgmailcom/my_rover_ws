@@ -1,0 +1,6 @@
+{
+  "package_name": "safety_interfaces",
+  "non_idl_tuples": [
+    "/home/rover/my_rover_ws/src/safety_interfaces:msg/SafetyStatus.msg"
+  ]
+}
