@@ -1,18 +1,1 @@
-// generated from rosidl_adapter/resource/msg.idl.em
-// with input from safety_interfaces/msg/SafetyStatus.msg
-// generated code does not contain a copyright notice
-
-
-module safety_interfaces {
-  module msg {
-    struct SafetyStatus {
-      boolean front_clear;
-
-      boolean back_clear;
-
-      boolean left_clear;
-
-      boolean right_clear;
-    };
-  };
-};
+/home/rover/my_rover_ws/build/safety_interfaces/rosidl_adapter/safety_interfaces/msg/SafetyStatus.idl

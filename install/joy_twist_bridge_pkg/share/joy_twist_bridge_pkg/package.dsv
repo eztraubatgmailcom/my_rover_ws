@@ -4,3 +4,6 @@ source;share/joy_twist_bridge_pkg/hook/pythonpath.sh
 source;share/joy_twist_bridge_pkg/hook/ament_prefix_path.ps1
 source;share/joy_twist_bridge_pkg/hook/ament_prefix_path.dsv
 source;share/joy_twist_bridge_pkg/hook/ament_prefix_path.sh
+source;../../build/joy_twist_bridge_pkg/share/joy_twist_bridge_pkg/hook/pythonpath_develop.ps1
+source;../../build/joy_twist_bridge_pkg/share/joy_twist_bridge_pkg/hook/pythonpath_develop.dsv
+source;../../build/joy_twist_bridge_pkg/share/joy_twist_bridge_pkg/hook/pythonpath_develop.sh

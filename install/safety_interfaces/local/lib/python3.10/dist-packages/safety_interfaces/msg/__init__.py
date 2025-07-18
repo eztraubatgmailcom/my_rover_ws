@@ -1,1 +1,1 @@
-from safety_interfaces.msg._safety_status import SafetyStatus  # noqa: F401
+/home/rover/my_rover_ws/build/safety_interfaces/rosidl_generator_py/safety_interfaces/msg/__init__.py

@@ -1,0 +1,33 @@
+[4.364s] Invoking command in '/home/rover/my_rover_ws/build/my_rover_launch_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/my_rover_launch_pkg/build --no-deps symlink_data
+[4.960s] running develop
+[5.335s] running egg_info
+[5.335s] creating my_rover_launch_pkg.egg-info
+[5.335s] writing my_rover_launch_pkg.egg-info/PKG-INFO
+[5.336s] writing dependency_links to my_rover_launch_pkg.egg-info/dependency_links.txt
+[5.336s] writing entry points to my_rover_launch_pkg.egg-info/entry_points.txt
+[5.337s] writing requirements to my_rover_launch_pkg.egg-info/requires.txt
+[5.337s] writing top-level names to my_rover_launch_pkg.egg-info/top_level.txt
+[5.337s] writing manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+[5.341s] reading manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+[5.342s] writing manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+[5.346s] running build_ext
+[5.346s] Creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my-rover-launch-pkg.egg-link (link to .)
+[5.348s] 
+[5.348s] Installed /home/rover/my_rover_ws/build/my_rover_launch_pkg
+[5.349s] running symlink_data
+[5.349s] creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index
+[5.349s] creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index/resource_index
+[5.349s] creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index/resource_index/packages
+[5.349s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/resource/my_rover_launch_pkg -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index/resource_index/packages
+[5.349s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/package.xml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg
+[5.350s] creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.350s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/lidar_and_rviz2.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.350s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/joystick_control.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.350s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/vertical_lidar_only.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.350s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/navsat_ekf.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.351s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/vertical_lidar_logger.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.351s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/test_navsat.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.351s] creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+[5.351s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/config/ekf.yaml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+[5.351s] symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/config/navsat_transform.yaml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+[5.453s] Invoked command in '/home/rover/my_rover_ws/build/my_rover_launch_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/my_rover_launch_pkg/build --no-deps symlink_data

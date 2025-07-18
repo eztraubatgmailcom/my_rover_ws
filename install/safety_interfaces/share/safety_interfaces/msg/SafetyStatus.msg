@@ -1,4 +1,1 @@
-bool front_clear
-bool back_clear
-bool left_clear
-bool right_clear
+/home/rover/my_rover_ws/src/safety_interfaces/msg/SafetyStatus.msg

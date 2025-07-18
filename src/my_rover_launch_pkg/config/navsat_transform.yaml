@@ -1,11 +1,14 @@
 navsat_transform_node:
   ros__parameters:
-    frequency: 10.0
-    delay: 0.0
-    magnetic_declination_radians: 0.0
-    yaw_offset: 0.0
-    zero_altitude: true
+    frequency: 20.0         # increased from 10.0 Hz
+    delay: 0.0              # or keep existing value
+    use_odometry_yaw: false
+    wait_for_datum: true
     broadcast_utm_transform: true
-    publish_filtered_gps: false
-    wait_for_datum: false
-    
+    world_frame: odom
+    utm_frame: utm
+    base_link_frame: base_link
+    gps_frame: gps_link
+    yaw_offset: 0.0
+    zero_altitude: 0.0
+    gps_timeout: 0.5

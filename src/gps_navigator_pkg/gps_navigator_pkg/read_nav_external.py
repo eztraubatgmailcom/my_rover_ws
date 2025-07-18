@@ -3,6 +3,7 @@ from rclpy.node import Node
 from sensor_msgs.msg import Imu, MagneticField
 from sensor_msgs.msg import NavSatFix, NavSatStatus
 import serial, struct, time
+import math
 
 class SerialBridge(Node):
     def __init__(self):
@@ -51,20 +52,29 @@ class SerialBridge(Node):
                     imu = Imu()
                     imu.header.frame_id = 'imu_link'
                     imu.header.stamp = now
+                    imu.orientation_covariance = [0.001]*9
+                    imu.angular_velocity_covariance = [0.001]*9
+                    imu.linear_acceleration_covariance = [0.01]*9
+                    
                     imu.orientation.w = qr
                     imu.orientation.x = qi
                     imu.orientation.y = qj
-                    imu.orientation.z = qk
-                    imu.orientation_covariance = [0.001]*9
-                    imu.angular_velocity_covariance = [0.001]*9
-                    
+                    imu.orientation.z = qk              
                     imu.linear_acceleration.x = ax
                     imu.linear_acceleration.y = ay
                     imu.linear_acceleration.z = az
-                    imu.linear_acceleration_covariance = [0.01]*9
-                    
-                    self.pub_imu.publish(imu)
 
+                    vals = [
+                        imu.orientation.w, imu.orientation.x, imu.orientation.y,
+                        imu.orientation.z, imu.linear_acceleration.x, imu.linear_acceleration.y,
+                        imu.linear_acceleration.z
+                    ]
+                      
+                    if any(math.isnan(v) for v in vals):
+                        self.get_logger().warn("NaN detected in IMU - skipping message")
+                    else:                  
+                        self.pub_imu.publish(imu)
+                    
                     mag = MagneticField()
                     mag.header.frame_id = 'imu_link'
                     mag.header.stamp = now
@@ -72,6 +82,7 @@ class SerialBridge(Node):
                     mag.magnetic_field.y = my
                     mag.magnetic_field.z = mz
                     mag.magnetic_field_covariance = [0.1] * 9
+                    
                     self.pub_mag.publish(mag)
 
                 elif hdr == b'\x02':  # GPS
@@ -94,6 +105,7 @@ class SerialBridge(Node):
                     fix.header.stamp = now
                     fix.status.status = fq     
                     fix.status.service = NavSatStatus.SERVICE_GPS
+                    
                     fix.latitude = lat
                     fix.longitude = lon
                     fix.altitude = alt  
@@ -105,8 +117,14 @@ class SerialBridge(Node):
                     ]
                     fix.position_covariance = cov
                     fix.position_covariance_type = NavSatFix.COVARIANCE_TYPE_APPROXIMATED
-                    self.pub_gps_fix.publish(fix)
-
+                    
+                    vals = [fix.latitude, fix.longitude, fix.altitude]
+                    
+                    if any(math.isnan(v) for v in vals + cov):
+                        self.get_logger().warn("🔍 Detected NaN in GPS — skipping message")
+                    else:
+                        self.pub_gps_fix.publish(fix)
+ 
                 else:
                     self.get_logger().warn(f"Unknown packet header: {hdr.hex()}")
                     # optional: consume one byte or flush until next valid header

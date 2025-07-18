@@ -1,0 +1,17 @@
+[2.355s] Invoking command in '/home/rover/my_rover_ws/build/pan_tilt_control_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/pan_tilt_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/pan_tilt_control_pkg/build --no-deps symlink_data
+[2.971s] running develop
+[3.355s] running egg_info
+[3.356s] writing pan_tilt_control_pkg.egg-info/PKG-INFO
+[3.356s] writing dependency_links to pan_tilt_control_pkg.egg-info/dependency_links.txt
+[3.357s] writing entry points to pan_tilt_control_pkg.egg-info/entry_points.txt
+[3.357s] writing requirements to pan_tilt_control_pkg.egg-info/requires.txt
+[3.357s] writing top-level names to pan_tilt_control_pkg.egg-info/top_level.txt
+[3.361s] reading manifest file 'pan_tilt_control_pkg.egg-info/SOURCES.txt'
+[3.363s] writing manifest file 'pan_tilt_control_pkg.egg-info/SOURCES.txt'
+[3.367s] running build_ext
+[3.367s] Creating /home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/python3.10/site-packages/pan-tilt-control-pkg.egg-link (link to .)
+[3.369s] Installing joystick_to_serial script to /home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/pan_tilt_control_pkg
+[3.370s] 
+[3.370s] Installed /home/rover/my_rover_ws/build/pan_tilt_control_pkg
+[3.370s] running symlink_data
+[3.483s] Invoked command in '/home/rover/my_rover_ws/build/pan_tilt_control_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/pan_tilt_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/pan_tilt_control_pkg/build --no-deps symlink_data

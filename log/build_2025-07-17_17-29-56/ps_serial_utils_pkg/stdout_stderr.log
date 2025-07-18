@@ -1,0 +1,21 @@
+running develop
+running egg_info
+creating ps_serial_utils_pkg.egg-info
+writing ps_serial_utils_pkg.egg-info/PKG-INFO
+writing dependency_links to ps_serial_utils_pkg.egg-info/dependency_links.txt
+writing entry points to ps_serial_utils_pkg.egg-info/entry_points.txt
+writing requirements to ps_serial_utils_pkg.egg-info/requires.txt
+writing top-level names to ps_serial_utils_pkg.egg-info/top_level.txt
+writing manifest file 'ps_serial_utils_pkg.egg-info/SOURCES.txt'
+reading manifest file 'ps_serial_utils_pkg.egg-info/SOURCES.txt'
+writing manifest file 'ps_serial_utils_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages/ps-serial-utils-pkg.egg-link (link to .)
+
+Installed /home/rover/my_rover_ws/build/ps_serial_utils_pkg
+running symlink_data
+creating /home/rover/my_rover_ws/install/ps_serial_utils_pkg/share/ament_index
+creating /home/rover/my_rover_ws/install/ps_serial_utils_pkg/share/ament_index/resource_index
+creating /home/rover/my_rover_ws/install/ps_serial_utils_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rover/my_rover_ws/build/ps_serial_utils_pkg/resource/ps_serial_utils_pkg -> /home/rover/my_rover_ws/install/ps_serial_utils_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rover/my_rover_ws/build/ps_serial_utils_pkg/package.xml -> /home/rover/my_rover_ws/install/ps_serial_utils_pkg/share/ps_serial_utils_pkg

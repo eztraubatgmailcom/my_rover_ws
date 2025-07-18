@@ -1,0 +1,31 @@
+running develop
+running egg_info
+creating my_rover_launch_pkg.egg-info
+writing my_rover_launch_pkg.egg-info/PKG-INFO
+writing dependency_links to my_rover_launch_pkg.egg-info/dependency_links.txt
+writing entry points to my_rover_launch_pkg.egg-info/entry_points.txt
+writing requirements to my_rover_launch_pkg.egg-info/requires.txt
+writing top-level names to my_rover_launch_pkg.egg-info/top_level.txt
+writing manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+reading manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my-rover-launch-pkg.egg-link (link to .)
+
+Installed /home/rover/my_rover_ws/build/my_rover_launch_pkg
+running symlink_data
+creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index
+creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index/resource_index
+creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/resource/my_rover_launch_pkg -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index/resource_index/packages
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/package.xml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg
+creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/lidar_and_rviz2.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/joystick_control.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/vertical_lidar_only.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/navsat_ekf.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/vertical_lidar_logger.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/launch/test_navsat.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/config/ekf.yaml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+symbolically linking /home/rover/my_rover_ws/build/my_rover_launch_pkg/config/navsat_transform.yaml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config

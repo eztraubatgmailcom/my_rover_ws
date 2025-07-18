@@ -22,6 +22,7 @@ setup(
         'console_scripts': [
             'serial_simple = gps_navigator_pkg.serial_simple:main',
             'read_nav_external = gps_navigator_pkg.read_nav_external:main',
+            'odom_echo = gps_navigator_pkg.odom_echo:main',
         ],
     },
 )

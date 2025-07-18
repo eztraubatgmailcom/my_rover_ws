@@ -1,0 +1,17 @@
+[4.579s] Invoking command in '/home/rover/my_rover_ws/build/lidar_safety_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/lidar_safety_pkg/build --no-deps symlink_data
+[5.196s] running develop
+[5.581s] running egg_info
+[5.581s] writing lidar_safety_pkg.egg-info/PKG-INFO
+[5.581s] writing dependency_links to lidar_safety_pkg.egg-info/dependency_links.txt
+[5.582s] writing entry points to lidar_safety_pkg.egg-info/entry_points.txt
+[5.582s] writing requirements to lidar_safety_pkg.egg-info/requires.txt
+[5.582s] writing top-level names to lidar_safety_pkg.egg-info/top_level.txt
+[5.586s] reading manifest file 'lidar_safety_pkg.egg-info/SOURCES.txt'
+[5.588s] writing manifest file 'lidar_safety_pkg.egg-info/SOURCES.txt'
+[5.592s] running build_ext
+[5.592s] Creating /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar-safety-pkg.egg-link (link to .)
+[5.594s] Installing obstacle_detector_node script to /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/lidar_safety_pkg
+[5.595s] 
+[5.595s] Installed /home/rover/my_rover_ws/build/lidar_safety_pkg
+[5.596s] running symlink_data
+[5.782s] Invoked command in '/home/rover/my_rover_ws/build/lidar_safety_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/lidar_safety_pkg/build --no-deps symlink_data

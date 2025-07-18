@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/rover/my_rover_ws/build/safety_interfaces/rosidl_generator_py/safety_interfaces/safety_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "safety_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/safety_interfaces")

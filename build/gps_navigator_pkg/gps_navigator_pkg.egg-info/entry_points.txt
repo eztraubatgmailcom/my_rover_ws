@@ -1,4 +1,5 @@
 [console_scripts]
+odom_echo = gps_navigator_pkg.odom_echo:main
 read_nav_external = gps_navigator_pkg.read_nav_external:main
 serial_simple = gps_navigator_pkg.serial_simple:main
 

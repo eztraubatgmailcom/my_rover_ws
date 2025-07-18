@@ -1,8 +1,1 @@
-setup.py
-safety_interfaces/__init__.py
-safety_interfaces.egg-info/PKG-INFO
-safety_interfaces.egg-info/SOURCES.txt
-safety_interfaces.egg-info/dependency_links.txt
-safety_interfaces.egg-info/top_level.txt
-safety_interfaces/msg/__init__.py
-safety_interfaces/msg/_safety_status.py
+/home/rover/my_rover_ws/build/safety_interfaces/ament_cmake_python/safety_interfaces/safety_interfaces.egg-info/SOURCES.txt

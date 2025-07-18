@@ -1,0 +1,26 @@
+[4.377s] Invoking command in '/home/rover/my_rover_ws/build/keyboard_controller_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/keyboard_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/keyboard_controller_pkg/build --no-deps symlink_data
+[5.048s] running develop
+[5.503s] running egg_info
+[5.503s] creating keyboard_controller_pkg.egg-info
+[5.503s] writing keyboard_controller_pkg.egg-info/PKG-INFO
+[5.504s] writing dependency_links to keyboard_controller_pkg.egg-info/dependency_links.txt
+[5.505s] writing entry points to keyboard_controller_pkg.egg-info/entry_points.txt
+[5.506s] writing requirements to keyboard_controller_pkg.egg-info/requires.txt
+[5.506s] writing top-level names to keyboard_controller_pkg.egg-info/top_level.txt
+[5.508s] writing manifest file 'keyboard_controller_pkg.egg-info/SOURCES.txt'
+[5.519s] reading manifest file 'keyboard_controller_pkg.egg-info/SOURCES.txt'
+[5.521s] writing manifest file 'keyboard_controller_pkg.egg-info/SOURCES.txt'
+[5.525s] running build_ext
+[5.528s] Creating /home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/python3.10/site-packages/keyboard-controller-pkg.egg-link (link to .)
+[5.530s] Installing keyboard_teleop script to /home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/keyboard_controller_pkg
+[5.531s] 
+[5.531s] Installed /home/rover/my_rover_ws/build/keyboard_controller_pkg
+[5.531s] running symlink_data
+[5.531s] creating /home/rover/my_rover_ws/install/keyboard_controller_pkg/share/ament_index
+[5.531s] creating /home/rover/my_rover_ws/install/keyboard_controller_pkg/share/ament_index/resource_index
+[5.531s] creating /home/rover/my_rover_ws/install/keyboard_controller_pkg/share/ament_index/resource_index/packages
+[5.532s] symbolically linking /home/rover/my_rover_ws/build/keyboard_controller_pkg/resource/keyboard_controller_pkg -> /home/rover/my_rover_ws/install/keyboard_controller_pkg/share/ament_index/resource_index/packages
+[5.532s] symbolically linking /home/rover/my_rover_ws/build/keyboard_controller_pkg/package.xml -> /home/rover/my_rover_ws/install/keyboard_controller_pkg/share/keyboard_controller_pkg
+[5.532s] creating /home/rover/my_rover_ws/install/keyboard_controller_pkg/share/keyboard_controller_pkg/launch
+[5.532s] symbolically linking /home/rover/my_rover_ws/build/keyboard_controller_pkg/launch/keyboard_teleop.launch.py -> /home/rover/my_rover_ws/install/keyboard_controller_pkg/share/keyboard_controller_pkg/launch
+[6.296s] Invoked command in '/home/rover/my_rover_ws/build/keyboard_controller_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/keyboard_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/keyboard_controller_pkg/build --no-deps symlink_data

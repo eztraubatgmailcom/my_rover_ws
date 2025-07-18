@@ -1,0 +1,17 @@
+[1.568s] Invoking command in '/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/build --no-deps symlink_data
+[2.196s] running develop
+[2.583s] running egg_info
+[2.583s] writing vertical_lidar_logger_pkg.egg-info/PKG-INFO
+[2.584s] writing dependency_links to vertical_lidar_logger_pkg.egg-info/dependency_links.txt
+[2.584s] writing entry points to vertical_lidar_logger_pkg.egg-info/entry_points.txt
+[2.584s] writing requirements to vertical_lidar_logger_pkg.egg-info/requires.txt
+[2.585s] writing top-level names to vertical_lidar_logger_pkg.egg-info/top_level.txt
+[2.590s] reading manifest file 'vertical_lidar_logger_pkg.egg-info/SOURCES.txt'
+[2.592s] writing manifest file 'vertical_lidar_logger_pkg.egg-info/SOURCES.txt'
+[2.596s] running build_ext
+[2.596s] Creating /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages/vertical-lidar-logger-pkg.egg-link (link to .)
+[2.598s] Installing vertical_lidar_logger script to /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/vertical_lidar_logger_pkg
+[2.598s] 
+[2.599s] Installed /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg
+[2.599s] running symlink_data
+[2.680s] Invoked command in '/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/build --no-deps symlink_data
