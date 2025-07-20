@@ -1,1 +1,0 @@
-/home/rover/my_rover_ws/src/keyboard_controller_pkg/setup.py

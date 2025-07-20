@@ -1,1 +1,19 @@
-/home/rover/my_rover_ws/build/lidar_safety_pkg/package.xml
+<?xml version="1.0"?>
+<package format="3">
+  <name>lidar_safety_pkg</name>
+  <version>0.0.0</version>
+  <description>LIDAR-based safety stop package</description>
+  <maintainer email="rover@todo.todo">rover</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_python</buildtool_depend>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

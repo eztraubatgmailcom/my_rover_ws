@@ -1,0 +1,40 @@
+running develop
+Removing /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps-navigator-pkg.egg-link (link to .)
+running egg_info
+writing ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/requires.txt
+writing top-level names to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/top_level.txt
+reading manifest file '../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rover/my_rover_ws/build/gps_navigator_pkg/build
+creating /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib
+creating /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg
+copying gps_navigator_pkg/read_nav_external.py -> /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg
+copying gps_navigator_pkg/serial_simple.py -> /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg
+copying gps_navigator_pkg/odom_echo.py -> /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg
+copying gps_navigator_pkg/__init__.py -> /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg
+running install
+running install_lib
+creating /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg
+copying /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg/read_nav_external.py -> /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg
+copying /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg/serial_simple.py -> /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg
+copying /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg/odom_echo.py -> /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg
+copying /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg/__init__.py -> /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg
+byte-compiling /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg/read_nav_external.py to read_nav_external.cpython-310.pyc
+byte-compiling /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg/serial_simple.py to serial_simple.cpython-310.pyc
+byte-compiling /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg/odom_echo.py to odom_echo.cpython-310.pyc
+byte-compiling /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/gps_navigator_pkg -> /home/rover/my_rover_ws/install/gps_navigator_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/rover/my_rover_ws/install/gps_navigator_pkg/share/gps_navigator_pkg
+running install_egg_info
+Copying ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing odom_echo script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+Installing read_nav_external script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+Installing serial_simple script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+writing list of installed files to '/home/rover/my_rover_ws/build/gps_navigator_pkg/install.log'

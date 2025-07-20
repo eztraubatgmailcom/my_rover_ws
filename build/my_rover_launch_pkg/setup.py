@@ -1,1 +1,0 @@
-/home/rover/my_rover_ws/src/my_rover_launch_pkg/setup.py

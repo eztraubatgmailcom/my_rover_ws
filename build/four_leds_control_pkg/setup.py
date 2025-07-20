@@ -1,1 +1,0 @@
-/home/rover/my_rover_ws/src/four_leds_control_pkg/setup.py

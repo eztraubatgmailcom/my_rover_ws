@@ -1,5 +1,6 @@
 ekf_filter_node:
   ros__parameters:
+
     frequency: 30.0
     sensor_timeout: 0.5
     two_d_mode: true
@@ -9,12 +10,12 @@ ekf_filter_node:
     publish_tf: true
     publish_acceleration: false
 
-    map_frame: odom
+    map_frame: map
     odom_frame: odom
     base_link_frame: base_link
-    world_frame: odom
+    base_link_frame_output: base_link_output  # <--- explicitly unique!
+    world_frame: map
 
-    # ✅ Use the working /odometry/wheels topic
     odom0: /odometry/wheels
     odom0_config: [true, true, false,
                    false, false, true,
@@ -24,7 +25,6 @@ ekf_filter_node:
     odom0_queue_size: 10
     odom0_differential: false
 
-    # ✅ IMU (used for angular velocities and orientation)
     imu0: /imu/data_raw
     imu0_config: [false, false, false,
                   true, true, true,

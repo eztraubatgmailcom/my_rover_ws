@@ -4,6 +4,3 @@ source;share/ps_serial_utils_pkg/hook/pythonpath.sh
 source;share/ps_serial_utils_pkg/hook/ament_prefix_path.ps1
 source;share/ps_serial_utils_pkg/hook/ament_prefix_path.dsv
 source;share/ps_serial_utils_pkg/hook/ament_prefix_path.sh
-source;../../build/ps_serial_utils_pkg/share/ps_serial_utils_pkg/hook/pythonpath_develop.ps1
-source;../../build/ps_serial_utils_pkg/share/ps_serial_utils_pkg/hook/pythonpath_develop.dsv
-source;../../build/ps_serial_utils_pkg/share/ps_serial_utils_pkg/hook/pythonpath_develop.sh

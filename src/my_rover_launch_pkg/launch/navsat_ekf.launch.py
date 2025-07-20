@@ -1,56 +1,90 @@
+import os
 from launch import LaunchDescription
 from launch_ros.actions import Node
+from ament_index_python.packages import get_package_share_directory
+
+# navsat_config_path = os.path.join(
+#     get_package_share_directory('my_rover_launch_pkg'),
+#     'config',
+#     'navsat_transform.yaml'
+# )
+
 
 def generate_launch_description():
+    pkg_share = get_package_share_directory('my_rover_launch_pkg')
     return LaunchDescription([
-        
-         # 0. Rover Robotics Driver (CAN + motion control)
+
+        # Static Transform: base_link → imu_link
         Node(
-            package='roverrobotics_driver',
-            executable='roverrobotics_driver',
-            name='roverrobotics_driver',
-            output='screen',
+            package="tf2_ros",
+            executable="static_transform_publisher",
+            name="static_tf_imu_to_base",
+            arguments=["0", "0", "0", "0", "0", "0", "base_link", "imu_link"],
+            output="screen"
+        ),
+
+        # Static Transform: base_link → gps_link
+        Node(
+            package="tf2_ros",
+            executable="static_transform_publisher",
+            name="static_tf_gps_to_base",
+            arguments=["0", "0", "0", "0", "0", "0", "base_link", "gps_link"],
+            output="screen"
+        ),
+
+        # EKF Filter
+        Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_filter_node',
+            parameters=[os.path.join(pkg_share, 'config', 'ekf.yaml')],
+            output='screen'
+        ),
+
+        # WAS   >>>>    NavSat Transform Node
+        #  Node(
+        #      package='robot_localization',
+        #      executable='navsat_transform_node',
+        #      name='navsat_transform_node',
+        #      parameters=[os.path.join(pkg_share, 'config', 'navsat_transform.yaml')],
+        #      output='screen'
+        # ),
+        
+        # NavSat Transform Node
+        Node(
+            package='robot_localization',
+            executable='navsat_transform_node',
+            name='navsat_transform_node',
+            parameters=[os.path.join(pkg_share, 'config', 'navsat_transform.yaml')],
+            remappings=[
+                ('/fix', '/gps/fix'),
+                ('/imu/data', '/imu/data_raw')
+            ],
+            output='screen'
         ),
         
-        # 1. Serial bridge for IMU & GPS
+
+        # GPS/IMU Serial Reader
         Node(
             package='gps_navigator_pkg',
             executable='read_nav_external',
             name='serial_bridge',
-            output='screen',
+            output='screen'
         ),
 
-        # 2. EKF node (fuses IMU, wheel odom, and GPS odom)
+        # Rover CAN Driver
         Node(
-            package='robot_localization', executable='ekf_node',
-            name='ekf_filter_node', output='screen',
-            parameters=['./config/ekf.yaml']
-        ),
-        
-        
-        Node(
-            package='robot_localization', executable='navsat_transform_node',
-            name='navsat_transform_node', output='screen',
-            parameters=['./config/navsat_transform.yaml'],
-            remappings=[('imu/data', '/imu/data_raw'),
-                        ('gps/fix', '/gps/fix'),
-                        ('odometry/filtered', '/odometry/filtered')]
-        ),
-        
-        # 4. Joystick-to-Twist control
-        Node(
-            package='joy_twist_bridge_pkg',
-            executable='joy_to_twist',
-            name='joy_to_twist',
-            output='screen',
+            package='roverrobotics_driver',
+            executable='roverrobotics_driver',
+            name='roverrobotics_driver',
+            output='screen'
         ),
 
-        # 5. Obstacle detector (publishes safety_status)
+        # Obstacle Detector
         Node(
             package='lidar_safety_pkg',
             executable='obstacle_detector_node',
-            name='obstacle_detector',
-            output='screen',
-            parameters=[{'stop_distance': 0.5}],
-        ),
+            name='obstacle_detector_node',
+            output='screen'
+        )
     ])

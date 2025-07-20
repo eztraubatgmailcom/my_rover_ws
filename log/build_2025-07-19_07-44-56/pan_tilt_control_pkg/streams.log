@@ -1,0 +1,21 @@
+[2.299s] Invoking command in '/home/rover/my_rover_ws/src/pan_tilt_control_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/pan_tilt_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pan_tilt_control_pkg build --build-base /home/rover/my_rover_ws/build/pan_tilt_control_pkg/build install --record /home/rover/my_rover_ws/build/pan_tilt_control_pkg/install.log --single-version-externally-managed install_data
+[2.923s] running egg_info
+[2.924s] writing ../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info/PKG-INFO
+[2.925s] writing dependency_links to ../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info/dependency_links.txt
+[2.925s] writing entry points to ../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info/entry_points.txt
+[2.926s] writing requirements to ../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info/requires.txt
+[2.926s] writing top-level names to ../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info/top_level.txt
+[2.931s] reading manifest file '../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info/SOURCES.txt'
+[2.932s] writing manifest file '../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info/SOURCES.txt'
+[2.933s] running build
+[2.933s] running build_py
+[2.934s] running install
+[2.934s] running install_lib
+[2.942s] running install_data
+[2.942s] running install_egg_info
+[2.949s] removing '/home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/python3.10/site-packages/pan_tilt_control_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.949s] Copying ../../build/pan_tilt_control_pkg/pan_tilt_control_pkg.egg-info to /home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/python3.10/site-packages/pan_tilt_control_pkg-0.0.0-py3.10.egg-info
+[2.953s] running install_scripts
+[3.006s] Installing joystick_to_serial script to /home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/pan_tilt_control_pkg
+[3.008s] writing list of installed files to '/home/rover/my_rover_ws/build/pan_tilt_control_pkg/install.log'
+[3.100s] Invoked command in '/home/rover/my_rover_ws/src/pan_tilt_control_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/pan_tilt_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/pan_tilt_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pan_tilt_control_pkg build --build-base /home/rover/my_rover_ws/build/pan_tilt_control_pkg/build install --record /home/rover/my_rover_ws/build/pan_tilt_control_pkg/install.log --single-version-externally-managed install_data

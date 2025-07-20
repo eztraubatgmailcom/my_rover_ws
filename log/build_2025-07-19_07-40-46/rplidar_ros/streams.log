@@ -1,0 +1,54 @@
+[0.067s] Invoking command in '/home/rover/my_rover_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rover/my_rover_ws/build/rplidar_ros -- -j6 -l6
+[0.853s] [ 47%] Built target rplidar_composition
+[0.856s] [ 52%] Built target rplidar_client
+[0.856s] [100%] Built target rplidar_node
+[0.857s] Invoked command in '/home/rover/my_rover_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rover/my_rover_ws/build/rplidar_ros -- -j6 -l6
+[0.874s] Invoking command in '/home/rover/my_rover_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rover/my_rover_ws/build/rplidar_ros
+[0.894s] -- Install configuration: ""
+[0.896s] -- Execute custom install script
+[0.898s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py
+[0.899s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py
+[0.900s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py
+[0.901s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py
+[0.903s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py
+[0.904s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py
+[0.905s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py
+[0.905s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py
+[0.907s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py
+[0.908s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py
+[0.909s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py
+[0.909s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py
+[0.910s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py
+[0.911s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py
+[0.911s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py
+[0.912s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py
+[0.913s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py
+[0.913s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py
+[0.914s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py
+[0.915s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py
+[0.915s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py
+[0.916s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py
+[0.916s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py
+[0.917s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py
+[0.919s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz
+[0.920s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_node
+[0.921s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_composition
+[0.921s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/lib/rplidar_ros/rplidar_client
+[0.922s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros
+[0.923s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros
+[0.924s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh
+[0.925s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv
+[0.925s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/environment/path.sh
+[0.926s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/environment/path.dsv
+[0.928s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/local_setup.bash
+[0.928s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/local_setup.sh
+[0.929s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/local_setup.zsh
+[0.930s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/local_setup.dsv
+[0.931s] -- Symlinking: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/package.dsv
+[0.958s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros
+[0.958s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.958s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.958s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake
+[0.959s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake
+[0.959s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/rplidar_ros/share/rplidar_ros/package.xml
+[0.972s] Invoked command in '/home/rover/my_rover_ws/build/rplidar_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rover/my_rover_ws/build/rplidar_ros

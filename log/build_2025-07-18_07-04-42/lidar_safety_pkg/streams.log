@@ -1,0 +1,37 @@
+[4.778s] Invoking command in '/home/rover/my_rover_ws/build/lidar_safety_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rover/my_rover_ws/build/lidar_safety_pkg/build
+[5.609s] running develop
+[6.056s] Removing /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar-safety-pkg.egg-link (link to .)
+[6.182s] Invoked command in '/home/rover/my_rover_ws/build/lidar_safety_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rover/my_rover_ws/build/lidar_safety_pkg/build
+[6.183s] Invoking command in '/home/rover/my_rover_ws/src/lidar_safety_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_safety_pkg build --build-base /home/rover/my_rover_ws/build/lidar_safety_pkg/build install --record /home/rover/my_rover_ws/build/lidar_safety_pkg/install.log --single-version-externally-managed install_data --force
+[6.908s] running egg_info
+[6.910s] writing ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/PKG-INFO
+[6.911s] writing dependency_links to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/dependency_links.txt
+[6.911s] writing entry points to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/entry_points.txt
+[6.912s] writing requirements to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/requires.txt
+[6.912s] writing top-level names to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/top_level.txt
+[6.917s] reading manifest file '../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/SOURCES.txt'
+[6.922s] writing manifest file '../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/SOURCES.txt'
+[6.923s] running build
+[6.923s] running build_py
+[6.923s] creating /home/rover/my_rover_ws/build/lidar_safety_pkg/build
+[6.924s] creating /home/rover/my_rover_ws/build/lidar_safety_pkg/build/lib
+[6.924s] creating /home/rover/my_rover_ws/build/lidar_safety_pkg/build/lib/lidar_safety_pkg
+[6.924s] copying lidar_safety_pkg/obstacle_detector_node.py -> /home/rover/my_rover_ws/build/lidar_safety_pkg/build/lib/lidar_safety_pkg
+[6.925s] copying lidar_safety_pkg/__init__.py -> /home/rover/my_rover_ws/build/lidar_safety_pkg/build/lib/lidar_safety_pkg
+[6.926s] running install
+[6.927s] running install_lib
+[6.929s] creating /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg
+[6.929s] copying /home/rover/my_rover_ws/build/lidar_safety_pkg/build/lib/lidar_safety_pkg/obstacle_detector_node.py -> /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg
+[6.930s] copying /home/rover/my_rover_ws/build/lidar_safety_pkg/build/lib/lidar_safety_pkg/__init__.py -> /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg
+[6.932s] byte-compiling /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg/obstacle_detector_node.py to obstacle_detector_node.cpython-310.pyc
+[6.934s] byte-compiling /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg/__init__.py to __init__.cpython-310.pyc
+[6.934s] running install_data
+[6.934s] copying resource/lidar_safety_pkg -> /home/rover/my_rover_ws/install/lidar_safety_pkg/share/ament_index/resource_index/packages
+[6.935s] copying package.xml -> /home/rover/my_rover_ws/install/lidar_safety_pkg/share/lidar_safety_pkg
+[6.935s] copying launch/lidar_safety.launch.py -> /home/rover/my_rover_ws/install/lidar_safety_pkg/share/lidar_safety_pkg/launch
+[6.936s] running install_egg_info
+[6.941s] Copying ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info to /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg-0.0.0-py3.10.egg-info
+[6.944s] running install_scripts
+[7.011s] Installing obstacle_detector_node script to /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/lidar_safety_pkg
+[7.015s] writing list of installed files to '/home/rover/my_rover_ws/build/lidar_safety_pkg/install.log'
+[7.809s] Invoked command in '/home/rover/my_rover_ws/src/lidar_safety_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_safety_pkg build --build-base /home/rover/my_rover_ws/build/lidar_safety_pkg/build install --record /home/rover/my_rover_ws/build/lidar_safety_pkg/install.log --single-version-externally-managed install_data --force

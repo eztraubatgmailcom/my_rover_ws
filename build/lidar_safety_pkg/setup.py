@@ -1,1 +1,0 @@
-/home/rover/my_rover_ws/src/lidar_safety_pkg/setup.py

@@ -1,1 +1,0 @@
-/home/rover/my_rover_ws/src/pan_tilt_control_pkg/setup.py

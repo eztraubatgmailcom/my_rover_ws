@@ -1,0 +1,36 @@
+[5.009s] Invoking command in '/home/rover/my_rover_ws/build/four_leds_control_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rover/my_rover_ws/build/four_leds_control_pkg/build
+[6.234s] running develop
+[6.235s] Removing /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four-leds-control-pkg.egg-link (link to .)
+[6.275s] Invoked command in '/home/rover/my_rover_ws/build/four_leds_control_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rover/my_rover_ws/build/four_leds_control_pkg/build
+[6.276s] Invoking command in '/home/rover/my_rover_ws/src/four_leds_control_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/four_leds_control_pkg build --build-base /home/rover/my_rover_ws/build/four_leds_control_pkg/build install --record /home/rover/my_rover_ws/build/four_leds_control_pkg/install.log --single-version-externally-managed install_data --force
+[6.908s] running egg_info
+[6.911s] writing ../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info/PKG-INFO
+[6.912s] writing dependency_links to ../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info/dependency_links.txt
+[6.913s] writing entry points to ../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info/entry_points.txt
+[6.914s] writing requirements to ../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info/requires.txt
+[6.914s] writing top-level names to ../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info/top_level.txt
+[6.916s] reading manifest file '../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info/SOURCES.txt'
+[6.917s] writing manifest file '../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info/SOURCES.txt'
+[6.919s] running build
+[6.920s] running build_py
+[6.920s] creating /home/rover/my_rover_ws/build/four_leds_control_pkg/build
+[6.920s] creating /home/rover/my_rover_ws/build/four_leds_control_pkg/build/lib
+[6.920s] creating /home/rover/my_rover_ws/build/four_leds_control_pkg/build/lib/four_leds_control_pkg
+[6.921s] copying four_leds_control_pkg/joystick_4_buttons_to_serial.py -> /home/rover/my_rover_ws/build/four_leds_control_pkg/build/lib/four_leds_control_pkg
+[6.922s] copying four_leds_control_pkg/__init__.py -> /home/rover/my_rover_ws/build/four_leds_control_pkg/build/lib/four_leds_control_pkg
+[6.922s] running install
+[6.922s] running install_lib
+[6.927s] creating /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four_leds_control_pkg
+[6.927s] copying /home/rover/my_rover_ws/build/four_leds_control_pkg/build/lib/four_leds_control_pkg/joystick_4_buttons_to_serial.py -> /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four_leds_control_pkg
+[6.927s] copying /home/rover/my_rover_ws/build/four_leds_control_pkg/build/lib/four_leds_control_pkg/__init__.py -> /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four_leds_control_pkg
+[6.933s] byte-compiling /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four_leds_control_pkg/joystick_4_buttons_to_serial.py to joystick_4_buttons_to_serial.cpython-310.pyc
+[6.936s] byte-compiling /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four_leds_control_pkg/__init__.py to __init__.cpython-310.pyc
+[6.937s] running install_data
+[6.937s] copying resource/four_leds_control_pkg -> /home/rover/my_rover_ws/install/four_leds_control_pkg/share/ament_index/resource_index/packages
+[6.937s] copying package.xml -> /home/rover/my_rover_ws/install/four_leds_control_pkg/share/four_leds_control_pkg
+[6.937s] running install_egg_info
+[6.938s] Copying ../../build/four_leds_control_pkg/four_leds_control_pkg.egg-info to /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four_leds_control_pkg-0.0.0-py3.10.egg-info
+[6.941s] running install_scripts
+[6.990s] Installing joystick_4_buttons script to /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/four_leds_control_pkg
+[6.990s] writing list of installed files to '/home/rover/my_rover_ws/build/four_leds_control_pkg/install.log'
+[7.075s] Invoked command in '/home/rover/my_rover_ws/src/four_leds_control_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/four_leds_control_pkg build --build-base /home/rover/my_rover_ws/build/four_leds_control_pkg/build install --record /home/rover/my_rover_ws/build/four_leds_control_pkg/install.log --single-version-externally-managed install_data --force

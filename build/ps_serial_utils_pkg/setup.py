@@ -1,1 +1,0 @@
-/home/rover/my_rover_ws/src/ps_serial_utils_pkg/setup.py

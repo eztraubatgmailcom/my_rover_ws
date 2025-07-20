@@ -1,0 +1,21 @@
+[4.590s] Invoking command in '/home/rover/my_rover_ws/src/keyboard_controller_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/keyboard_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_controller_pkg build --build-base /home/rover/my_rover_ws/build/keyboard_controller_pkg/build install --record /home/rover/my_rover_ws/build/keyboard_controller_pkg/install.log --single-version-externally-managed install_data
+[5.155s] running egg_info
+[5.157s] writing ../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info/PKG-INFO
+[5.158s] writing dependency_links to ../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info/dependency_links.txt
+[5.158s] writing entry points to ../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info/entry_points.txt
+[5.160s] writing requirements to ../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info/requires.txt
+[5.160s] writing top-level names to ../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info/top_level.txt
+[5.162s] reading manifest file '../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info/SOURCES.txt'
+[5.164s] writing manifest file '../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info/SOURCES.txt'
+[5.165s] running build
+[5.166s] running build_py
+[5.166s] running install
+[5.167s] running install_lib
+[5.172s] running install_data
+[5.173s] running install_egg_info
+[5.176s] removing '/home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/python3.10/site-packages/keyboard_controller_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.181s] Copying ../../build/keyboard_controller_pkg/keyboard_controller_pkg.egg-info to /home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/python3.10/site-packages/keyboard_controller_pkg-0.0.0-py3.10.egg-info
+[5.181s] running install_scripts
+[5.225s] Installing keyboard_teleop script to /home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/keyboard_controller_pkg
+[5.226s] writing list of installed files to '/home/rover/my_rover_ws/build/keyboard_controller_pkg/install.log'
+[5.312s] Invoked command in '/home/rover/my_rover_ws/src/keyboard_controller_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/keyboard_controller_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/keyboard_controller_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/keyboard_controller_pkg build --build-base /home/rover/my_rover_ws/build/keyboard_controller_pkg/build install --record /home/rover/my_rover_ws/build/keyboard_controller_pkg/install.log --single-version-externally-managed install_data
