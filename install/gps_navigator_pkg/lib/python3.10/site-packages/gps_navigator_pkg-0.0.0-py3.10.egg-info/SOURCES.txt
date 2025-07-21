@@ -10,6 +10,7 @@ setup.py
 ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/zip-safe
 gps_navigator_pkg/__init__.py
 gps_navigator_pkg/debug_odometry_gps.py
+gps_navigator_pkg/gps_to_utm_node.py
 gps_navigator_pkg/odom_echo.py
 gps_navigator_pkg/read_nav_external.py
 gps_navigator_pkg/serial_simple.py

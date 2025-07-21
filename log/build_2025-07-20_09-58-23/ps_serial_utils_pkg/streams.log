@@ -1,0 +1,20 @@
+[2.260s] Invoking command in '/home/rover/my_rover_ws/src/ps_serial_utils_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/ps_serial_utils_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ps_serial_utils_pkg build --build-base /home/rover/my_rover_ws/build/ps_serial_utils_pkg/build install --record /home/rover/my_rover_ws/build/ps_serial_utils_pkg/install.log --single-version-externally-managed install_data
+[2.850s] running egg_info
+[2.851s] writing ../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info/PKG-INFO
+[2.851s] writing dependency_links to ../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info/dependency_links.txt
+[2.851s] writing entry points to ../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info/entry_points.txt
+[2.851s] writing requirements to ../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info/requires.txt
+[2.851s] writing top-level names to ../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info/top_level.txt
+[2.853s] reading manifest file '../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info/SOURCES.txt'
+[2.856s] writing manifest file '../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info/SOURCES.txt'
+[2.856s] running build
+[2.857s] running build_py
+[2.857s] running install
+[2.857s] running install_lib
+[2.862s] running install_data
+[2.862s] running install_egg_info
+[2.866s] removing '/home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages/ps_serial_utils_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.869s] Copying ../../build/ps_serial_utils_pkg/ps_serial_utils_pkg.egg-info to /home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages/ps_serial_utils_pkg-0.0.0-py3.10.egg-info
+[2.872s] running install_scripts
+[2.919s] writing list of installed files to '/home/rover/my_rover_ws/build/ps_serial_utils_pkg/install.log'
+[3.010s] Invoked command in '/home/rover/my_rover_ws/src/ps_serial_utils_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/ps_serial_utils_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ps_serial_utils_pkg build --build-base /home/rover/my_rover_ws/build/ps_serial_utils_pkg/build install --record /home/rover/my_rover_ws/build/ps_serial_utils_pkg/install.log --single-version-externally-managed install_data

@@ -31,7 +31,10 @@ setup(
     description='Launch and config for my MITI Rover project',
     license='TODO: License declaration',
     tests_require=['pytest'],
+    
     entry_points={
-        'console_scripts': [],
-    },
+        'console_scripts': [
+            'static_tf_gps = my_rover_launch_pkg.static_tf_gps:main',
+        ],
+    }
 )

@@ -1,0 +1,19 @@
+[2.632s] Invoking command in '/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/build --no-deps symlink_data --force
+[3.265s] running develop
+[3.652s] running egg_info
+[3.655s] writing vertical_lidar_logger_pkg.egg-info/PKG-INFO
+[3.655s] writing dependency_links to vertical_lidar_logger_pkg.egg-info/dependency_links.txt
+[3.655s] writing entry points to vertical_lidar_logger_pkg.egg-info/entry_points.txt
+[3.655s] writing requirements to vertical_lidar_logger_pkg.egg-info/requires.txt
+[3.655s] writing top-level names to vertical_lidar_logger_pkg.egg-info/top_level.txt
+[3.659s] reading manifest file 'vertical_lidar_logger_pkg.egg-info/SOURCES.txt'
+[3.661s] writing manifest file 'vertical_lidar_logger_pkg.egg-info/SOURCES.txt'
+[3.665s] running build_ext
+[3.665s] Creating /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages/vertical-lidar-logger-pkg.egg-link (link to .)
+[3.667s] Installing vertical_lidar_logger script to /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/vertical_lidar_logger_pkg
+[3.668s] 
+[3.668s] Installed /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg
+[3.668s] running symlink_data
+[3.668s] symbolically linking /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/resource/vertical_lidar_logger_pkg -> /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/share/ament_index/resource_index/packages
+[3.669s] symbolically linking /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/package.xml -> /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/share/vertical_lidar_logger_pkg
+[3.764s] Invoked command in '/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,20 @@
+[5.042s] Invoking command in '/home/rover/my_rover_ws/build/gps_navigator_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/gps_navigator_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/gps_navigator_pkg/build --no-deps symlink_data
+[5.828s] running develop
+[6.316s] running egg_info
+[6.316s] writing gps_navigator_pkg.egg-info/PKG-INFO
+[6.316s] writing dependency_links to gps_navigator_pkg.egg-info/dependency_links.txt
+[6.317s] writing entry points to gps_navigator_pkg.egg-info/entry_points.txt
+[6.317s] writing requirements to gps_navigator_pkg.egg-info/requires.txt
+[6.318s] writing top-level names to gps_navigator_pkg.egg-info/top_level.txt
+[6.327s] reading manifest file 'gps_navigator_pkg.egg-info/SOURCES.txt'
+[6.331s] writing manifest file 'gps_navigator_pkg.egg-info/SOURCES.txt'
+[6.339s] running build_ext
+[6.340s] Creating /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps-navigator-pkg.egg-link (link to .)
+[6.343s] Installing debug_odometry_gps script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[6.344s] Installing odom_echo script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[6.344s] Installing read_nav_external script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[6.344s] Installing serial_simple script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[6.345s] 
+[6.345s] Installed /home/rover/my_rover_ws/build/gps_navigator_pkg
+[6.347s] running symlink_data
+[7.010s] Invoked command in '/home/rover/my_rover_ws/build/gps_navigator_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/gps_navigator_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/gps_navigator_pkg/build --no-deps symlink_data

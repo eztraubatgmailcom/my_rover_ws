@@ -24,7 +24,7 @@ setup(
             'read_nav_external = gps_navigator_pkg.read_nav_external:main',
             'odom_echo = gps_navigator_pkg.odom_echo:main',
             'debug_odometry_gps = gps_navigator_pkg.debug_odometry_gps:main',
-            
+            'gps_to_utm_node = gps_navigator_pkg.gps_to_utm_node:main',         
         ],
     },
 )

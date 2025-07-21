@@ -1,3 +1,3 @@
 [console_scripts]
-
+static_tf_gps = my_rover_launch_pkg.static_tf_gps:main
 

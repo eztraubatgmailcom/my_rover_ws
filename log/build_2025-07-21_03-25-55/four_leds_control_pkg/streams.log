@@ -1,0 +1,22 @@
+[4.898s] Invoking command in '/home/rover/my_rover_ws/src/four_leds_control_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/four_leds_control_pkg build --build-base /home/rover/my_rover_ws/build/four_leds_control_pkg/build install --record /home/rover/my_rover_ws/build/four_leds_control_pkg/install.log --single-version-externally-managed install_data
+[5.512s] Traceback (most recent call last):
+[5.512s]   File "/home/rover/my_rover_ws/src/four_leds_control_pkg/setup.py", line 1, in <module>
+[5.512s]     from setuptools import find_packages, setup
+[5.512s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[5.513s]     import setuptools.version
+[5.513s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[5.513s]     import pkg_resources
+[5.513s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[5.515s]     def _initialize_master_working_set():
+[5.515s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[5.516s]     f(*args, **kwargs)
+[5.516s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3302, in _initialize_master_working_set
+[5.517s]     list(map(working_set.add_entry, sys.path))
+[5.517s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[5.517s]     for dist in find_distributions(entry, True):
+[5.517s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[5.518s]     for dist in factory(fullpath):
+[5.518s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2135, in distributions_from_metadata
+[5.518s]     if len(os.listdir(path)) == 0:
+[5.518s] FileNotFoundError: [Errno 2] No such file or directory: '/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg-0.0.0-py3.10.egg-info'
+[5.660s] Invoked command in '/home/rover/my_rover_ws/src/four_leds_control_pkg' returned '1': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/four_leds_control_pkg build --build-base /home/rover/my_rover_ws/build/four_leds_control_pkg/build install --record /home/rover/my_rover_ws/build/four_leds_control_pkg/install.log --single-version-externally-managed install_data

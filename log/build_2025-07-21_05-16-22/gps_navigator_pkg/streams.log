@@ -1,0 +1,28 @@
+[4.707s] Invoking command in '/home/rover/my_rover_ws/src/gps_navigator_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/gps_navigator_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_navigator_pkg build --build-base /home/rover/my_rover_ws/build/gps_navigator_pkg/build install --record /home/rover/my_rover_ws/build/gps_navigator_pkg/install.log --single-version-externally-managed install_data
+[5.332s] running egg_info
+[5.333s] writing ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/PKG-INFO
+[5.335s] writing dependency_links to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/dependency_links.txt
+[5.335s] writing entry points to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/entry_points.txt
+[5.335s] writing requirements to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/requires.txt
+[5.335s] writing top-level names to ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/top_level.txt
+[5.340s] reading manifest file '../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/SOURCES.txt'
+[5.341s] writing manifest file '../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info/SOURCES.txt'
+[5.342s] running build
+[5.343s] running build_py
+[5.344s] copying gps_navigator_pkg/gps_to_utm_node.py -> /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg
+[5.344s] running install
+[5.344s] running install_lib
+[5.350s] copying /home/rover/my_rover_ws/build/gps_navigator_pkg/build/lib/gps_navigator_pkg/gps_to_utm_node.py -> /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg
+[5.351s] byte-compiling /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg/gps_to_utm_node.py to gps_to_utm_node.cpython-310.pyc
+[5.353s] running install_data
+[5.353s] running install_egg_info
+[5.358s] removing '/home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.358s] Copying ../../build/gps_navigator_pkg/gps_navigator_pkg.egg-info to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages/gps_navigator_pkg-0.0.0-py3.10.egg-info
+[5.360s] running install_scripts
+[5.409s] Installing debug_odometry_gps script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[5.410s] Installing gps_to_utm_node script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[5.410s] Installing odom_echo script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[5.411s] Installing read_nav_external script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[5.411s] Installing serial_simple script to /home/rover/my_rover_ws/install/gps_navigator_pkg/lib/gps_navigator_pkg
+[5.412s] writing list of installed files to '/home/rover/my_rover_ws/build/gps_navigator_pkg/install.log'
+[5.497s] Invoked command in '/home/rover/my_rover_ws/src/gps_navigator_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/gps_navigator_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/gps_navigator_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_navigator_pkg build --build-base /home/rover/my_rover_ws/build/gps_navigator_pkg/build install --record /home/rover/my_rover_ws/build/gps_navigator_pkg/install.log --single-version-externally-managed install_data

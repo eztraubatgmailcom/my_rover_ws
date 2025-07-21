@@ -1,28 +1,26 @@
 navsat_transform_node:
   ros__parameters:
-    frequency: 20.0
+    frequency: 10.0
     delay: 0.0
+    magnetic_declination_radians: 0.0
+    yaw_offset: 0.0
+    zero_altitude: true
+    broadcast_utm_transform: true
+    publish_filtered_gps: true
+    publish_odometry: true
+    use_imu_yaw: true
+    use_odometry_yaw: false
+    use_manual_datum: false
+    wait_for_datum: false
+    transform_timeout: 0.1
 
-    # --- Required for message linking ---
-    gps_topic: /gps/fix
-    imu_topic: /imu/data_raw
-   # WAS >>  odometry_topic: /odometry/wheels
-    odometry_topic: /odometry/filtered
-
-    # --- Coordinate and TF configuration ---
+    # Frame IDs
+    map_frame: map
+    odom_frame: odom
     base_link_frame: base_link
     gps_frame: gps_link
-    world_frame: odom
-    broadcast_utm_transform: true
-    utm_frame: utm
 
-    # --- Behavior flags ---
-    use_odometry_yaw: false
-    wait_for_datum: false
-    zero_altitude: true    # was: 0.0 (incorrect type!)
-
-    # --- Misc ---
-    gps_timeout: 0.5
-    # ⛳ Most important to enable /odometry/gps
-    publish_filtered_gps: true
-    publish_filtered_gps: true
+    # Topics
+    gps_topic: /gps/fix
+    imu_topic: /imu/data_raw
+    odometry_topic: /odometry/wheels

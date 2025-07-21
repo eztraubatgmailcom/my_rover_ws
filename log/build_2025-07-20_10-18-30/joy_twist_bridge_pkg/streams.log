@@ -1,0 +1,17 @@
+[5.041s] Invoking command in '/home/rover/my_rover_ws/build/joy_twist_bridge_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/joy_twist_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/joy_twist_bridge_pkg/build --no-deps symlink_data
+[5.684s] running develop
+[6.096s] running egg_info
+[6.096s] writing joy_twist_bridge_pkg.egg-info/PKG-INFO
+[6.096s] writing dependency_links to joy_twist_bridge_pkg.egg-info/dependency_links.txt
+[6.097s] writing entry points to joy_twist_bridge_pkg.egg-info/entry_points.txt
+[6.097s] writing requirements to joy_twist_bridge_pkg.egg-info/requires.txt
+[6.097s] writing top-level names to joy_twist_bridge_pkg.egg-info/top_level.txt
+[6.102s] reading manifest file 'joy_twist_bridge_pkg.egg-info/SOURCES.txt'
+[6.103s] writing manifest file 'joy_twist_bridge_pkg.egg-info/SOURCES.txt'
+[6.108s] running build_ext
+[6.108s] Creating /home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/python3.10/site-packages/joy-twist-bridge-pkg.egg-link (link to .)
+[6.111s] Installing joy_to_twist script to /home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/joy_twist_bridge_pkg
+[6.112s] 
+[6.112s] Installed /home/rover/my_rover_ws/build/joy_twist_bridge_pkg
+[6.112s] running symlink_data
+[6.253s] Invoked command in '/home/rover/my_rover_ws/build/joy_twist_bridge_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/joy_twist_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/joy_twist_bridge_pkg/build --no-deps symlink_data

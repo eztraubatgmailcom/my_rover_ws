@@ -1,0 +1,17 @@
+[4.955s] Invoking command in '/home/rover/my_rover_ws/build/my_rover_launch_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/my_rover_launch_pkg/build --no-deps symlink_data
+[5.605s] running develop
+[6.000s] running egg_info
+[6.001s] writing my_rover_launch_pkg.egg-info/PKG-INFO
+[6.003s] writing dependency_links to my_rover_launch_pkg.egg-info/dependency_links.txt
+[6.004s] writing entry points to my_rover_launch_pkg.egg-info/entry_points.txt
+[6.005s] writing requirements to my_rover_launch_pkg.egg-info/requires.txt
+[6.007s] writing top-level names to my_rover_launch_pkg.egg-info/top_level.txt
+[6.012s] reading manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+[6.015s] writing manifest file 'my_rover_launch_pkg.egg-info/SOURCES.txt'
+[6.020s] running build_ext
+[6.021s] Creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my-rover-launch-pkg.egg-link (link to .)
+[6.024s] Installing static_tf_gps script to /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/my_rover_launch_pkg
+[6.026s] 
+[6.026s] Installed /home/rover/my_rover_ws/build/my_rover_launch_pkg
+[6.027s] running symlink_data
+[6.138s] Invoked command in '/home/rover/my_rover_ws/build/my_rover_launch_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/my_rover_launch_pkg/build --no-deps symlink_data

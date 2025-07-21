@@ -1,0 +1,18 @@
+[2.525s] Invoking command in '/home/rover/my_rover_ws/build/ps_serial_utils_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/ps_serial_utils_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/ps_serial_utils_pkg/build --no-deps symlink_data --force
+[3.230s] running develop
+[3.628s] running egg_info
+[3.630s] writing ps_serial_utils_pkg.egg-info/PKG-INFO
+[3.632s] writing dependency_links to ps_serial_utils_pkg.egg-info/dependency_links.txt
+[3.634s] writing entry points to ps_serial_utils_pkg.egg-info/entry_points.txt
+[3.636s] writing requirements to ps_serial_utils_pkg.egg-info/requires.txt
+[3.638s] writing top-level names to ps_serial_utils_pkg.egg-info/top_level.txt
+[3.644s] reading manifest file 'ps_serial_utils_pkg.egg-info/SOURCES.txt'
+[3.647s] writing manifest file 'ps_serial_utils_pkg.egg-info/SOURCES.txt'
+[3.655s] running build_ext
+[3.657s] Creating /home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages/ps-serial-utils-pkg.egg-link (link to .)
+[3.661s] 
+[3.661s] Installed /home/rover/my_rover_ws/build/ps_serial_utils_pkg
+[3.662s] running symlink_data
+[3.664s] symbolically linking /home/rover/my_rover_ws/build/ps_serial_utils_pkg/resource/ps_serial_utils_pkg -> /home/rover/my_rover_ws/install/ps_serial_utils_pkg/share/ament_index/resource_index/packages
+[3.666s] symbolically linking /home/rover/my_rover_ws/build/ps_serial_utils_pkg/package.xml -> /home/rover/my_rover_ws/install/ps_serial_utils_pkg/share/ps_serial_utils_pkg
+[3.775s] Invoked command in '/home/rover/my_rover_ws/build/ps_serial_utils_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/ps_serial_utils_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/ps_serial_utils_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/ps_serial_utils_pkg/build --no-deps symlink_data --force

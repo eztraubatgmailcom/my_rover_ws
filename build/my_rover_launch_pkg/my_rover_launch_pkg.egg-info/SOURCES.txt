@@ -9,7 +9,10 @@ setup.py
 ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/top_level.txt
 ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/zip-safe
 config/ekf.yaml
+config/ekf_gps.yaml
 config/navsat_transform.yaml
+launch/gps_ekf.launch.py
+launch/gps_nav.launch.py
 launch/joystick_control.launch.py
 launch/lidar_and_rviz2.launch.py
 launch/navsat_ekf.launch.py
@@ -17,6 +20,8 @@ launch/test_navsat.launch.py
 launch/vertical_lidar_logger.launch.py
 launch/vertical_lidar_only.launch.py
 my_rover_launch/__init__.py
+my_rover_launch_pkg/__init__.py
+my_rover_launch_pkg/static_tf_gps.py
 resource/my_rover_launch_pkg
 test/test_copyright.py
 test/test_flake8.py

@@ -1,0 +1,51 @@
+[4.764s] Invoking command in '/home/rover/my_rover_ws/build/my_rover_launch_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rover/my_rover_ws/build/my_rover_launch_pkg/build
+[5.426s] running develop
+[5.861s] Removing /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my-rover-launch-pkg.egg-link (link to .)
+[5.990s] Invoked command in '/home/rover/my_rover_ws/build/my_rover_launch_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/rover/my_rover_ws/build/my_rover_launch_pkg/build
+[5.991s] Invoking command in '/home/rover/my_rover_ws/src/my_rover_launch_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rover_launch_pkg build --build-base /home/rover/my_rover_ws/build/my_rover_launch_pkg/build install --record /home/rover/my_rover_ws/build/my_rover_launch_pkg/install.log --single-version-externally-managed install_data --force
+[6.656s] running egg_info
+[6.659s] writing ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/PKG-INFO
+[6.660s] writing dependency_links to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/dependency_links.txt
+[6.660s] writing entry points to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/entry_points.txt
+[6.660s] writing requirements to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/requires.txt
+[6.660s] writing top-level names to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/top_level.txt
+[6.664s] reading manifest file '../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/SOURCES.txt'
+[6.672s] writing manifest file '../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/SOURCES.txt'
+[6.673s] running build
+[6.673s] running build_py
+[6.673s] creating /home/rover/my_rover_ws/build/my_rover_launch_pkg/build/lib/my_rover_launch_pkg
+[6.673s] copying my_rover_launch_pkg/static_tf_gps.py -> /home/rover/my_rover_ws/build/my_rover_launch_pkg/build/lib/my_rover_launch_pkg
+[6.673s] copying my_rover_launch_pkg/__init__.py -> /home/rover/my_rover_ws/build/my_rover_launch_pkg/build/lib/my_rover_launch_pkg
+[6.673s] running install
+[6.675s] running install_lib
+[6.676s] creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg
+[6.677s] copying /home/rover/my_rover_ws/build/my_rover_launch_pkg/build/lib/my_rover_launch_pkg/static_tf_gps.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg
+[6.677s] copying /home/rover/my_rover_ws/build/my_rover_launch_pkg/build/lib/my_rover_launch_pkg/__init__.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg
+[6.677s] creating /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch
+[6.677s] copying /home/rover/my_rover_ws/build/my_rover_launch_pkg/build/lib/my_rover_launch/__init__.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch
+[6.680s] byte-compiling /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg/static_tf_gps.py to static_tf_gps.cpython-310.pyc
+[6.682s] byte-compiling /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg/__init__.py to __init__.cpython-310.pyc
+[6.683s] byte-compiling /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch/__init__.py to __init__.cpython-310.pyc
+[6.683s] running install_data
+[6.684s] copying resource/my_rover_launch_pkg -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/ament_index/resource_index/packages
+[6.684s] copying package.xml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg
+[6.686s] copying launch/lidar_and_rviz2.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.686s] copying launch/joystick_control.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.686s] copying launch/vertical_lidar_only.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.686s] copying launch/navsat_ekf.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.686s] copying launch/vertical_lidar_logger.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.686s] copying launch/test_navsat.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.687s] copying config/ekf.yaml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+[6.687s] copying config/navsat_transform.yaml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+[6.687s] copying launch/lidar_and_rviz2.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.687s] copying launch/joystick_control.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.687s] copying launch/vertical_lidar_only.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.687s] copying launch/navsat_ekf.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.687s] copying launch/vertical_lidar_logger.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.688s] copying launch/test_navsat.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[6.688s] running install_egg_info
+[6.697s] Copying ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info to /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg-0.0.0-py3.10.egg-info
+[6.698s] running install_scripts
+[6.754s] Installing static_tf_gps script to /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/my_rover_launch_pkg
+[6.755s] writing list of installed files to '/home/rover/my_rover_ws/build/my_rover_launch_pkg/install.log'
+[7.518s] Invoked command in '/home/rover/my_rover_ws/src/my_rover_launch_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rover_launch_pkg build --build-base /home/rover/my_rover_ws/build/my_rover_launch_pkg/build install --record /home/rover/my_rover_ws/build/my_rover_launch_pkg/install.log --single-version-externally-managed install_data --force

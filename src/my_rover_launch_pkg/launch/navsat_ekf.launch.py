@@ -1,68 +1,64 @@
-import os
 from launch import LaunchDescription
 from launch_ros.actions import Node
-from ament_index_python.packages import get_package_share_directory
-
-# navsat_config_path = os.path.join(
-#     get_package_share_directory('my_rover_launch_pkg'),
-#     'config',
-#     'navsat_transform.yaml'
-# )
-
 
 def generate_launch_description():
-    pkg_share = get_package_share_directory('my_rover_launch_pkg')
     return LaunchDescription([
-
-        # Static Transform: base_link → imu_link
+        
+        # base_link → gps_link
         Node(
-            package="tf2_ros",
-            executable="static_transform_publisher",
-            name="static_tf_imu_to_base",
-            arguments=["0", "0", "0", "0", "0", "0", "base_link", "imu_link"],
-            output="screen"
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='static_tf_gps',
+            arguments=[
+                '0', '0', '0',   # x y z
+                '0', '0', '0',   # roll pitch yaw (in radians)
+                'base_link', 'gps_link'
+            ],
+            output='screen'
         ),
-
-        # Static Transform: base_link → gps_link
+        
         Node(
-            package="tf2_ros",
-            executable="static_transform_publisher",
-            name="static_tf_gps_to_base",
-            arguments=["0", "0", "0", "0", "0", "0", "base_link", "gps_link"],
-            output="screen"
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='static_tf_imu',
+            arguments=[
+                '0', '0', '0.26',
+                '0', '0', '0',
+                'base_link', 'imu_link'
+            ],
+            output='screen'
         ),
-
+        
+        Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            name='fake_odom_tf',
+            arguments=[
+                '0', '0', '0', '0', '0', '0', 'odom', 'base_link'
+            ],
+            output='screen'
+        ),
+        
         # EKF Filter
         Node(
             package='robot_localization',
             executable='ekf_node',
             name='ekf_filter_node',
-            parameters=[os.path.join(pkg_share, 'config', 'ekf.yaml')],
+            parameters=['/home/rover/my_rover_ws/src/my_rover_launch_pkg/config/ekf.yaml'],
             output='screen'
         ),
 
-        # WAS   >>>>    NavSat Transform Node
-        #  Node(
-        #      package='robot_localization',
-        #      executable='navsat_transform_node',
-        #      name='navsat_transform_node',
-        #      parameters=[os.path.join(pkg_share, 'config', 'navsat_transform.yaml')],
-        #      output='screen'
-        # ),
-        
-        # NavSat Transform Node
+        # NavSat Transform Node (with full path!)
         Node(
             package='robot_localization',
             executable='navsat_transform_node',
             name='navsat_transform_node',
-            parameters=[os.path.join(pkg_share, 'config', 'navsat_transform.yaml')],
+            parameters=['/home/rover/my_rover_ws/src/my_rover_launch_pkg/config/navsat_transform.yaml'],
             remappings=[
-                ('/fix', '/gps/fix'),
-                ('/imu/data', '/imu/data_raw')
+                ('/imu/data', '/imu/data_raw'),
             ],
             output='screen'
         ),
-        
 
         # GPS/IMU Serial Reader
         Node(

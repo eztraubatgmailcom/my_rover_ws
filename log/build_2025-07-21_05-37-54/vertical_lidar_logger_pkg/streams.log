@@ -1,0 +1,21 @@
+[2.161s] Invoking command in '/home/rover/my_rover_ws/src/vertical_lidar_logger_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vertical_lidar_logger_pkg build --build-base /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/build install --record /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/install.log --single-version-externally-managed install_data
+[2.736s] running egg_info
+[2.738s] writing ../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info/PKG-INFO
+[2.739s] writing dependency_links to ../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info/dependency_links.txt
+[2.739s] writing entry points to ../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info/entry_points.txt
+[2.740s] writing requirements to ../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info/requires.txt
+[2.741s] writing top-level names to ../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info/top_level.txt
+[2.744s] reading manifest file '../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info/SOURCES.txt'
+[2.745s] writing manifest file '../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info/SOURCES.txt'
+[2.746s] running build
+[2.746s] running build_py
+[2.746s] running install
+[2.747s] running install_lib
+[2.753s] running install_data
+[2.753s] running install_egg_info
+[2.757s] removing '/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages/vertical_lidar_logger_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.758s] Copying ../../build/vertical_lidar_logger_pkg/vertical_lidar_logger_pkg.egg-info to /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages/vertical_lidar_logger_pkg-0.0.0-py3.10.egg-info
+[2.761s] running install_scripts
+[2.808s] Installing vertical_lidar_logger script to /home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/vertical_lidar_logger_pkg
+[2.810s] writing list of installed files to '/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/install.log'
+[2.890s] Invoked command in '/home/rover/my_rover_ws/src/vertical_lidar_logger_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vertical_lidar_logger_pkg build --build-base /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/build install --record /home/rover/my_rover_ws/build/vertical_lidar_logger_pkg/install.log --single-version-externally-managed install_data

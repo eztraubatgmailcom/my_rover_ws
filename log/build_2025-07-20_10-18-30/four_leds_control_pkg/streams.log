@@ -1,0 +1,17 @@
+[5.138s] Invoking command in '/home/rover/my_rover_ws/build/four_leds_control_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/four_leds_control_pkg/build --no-deps symlink_data
+[5.913s] running develop
+[6.444s] running egg_info
+[6.445s] writing four_leds_control_pkg.egg-info/PKG-INFO
+[6.445s] writing dependency_links to four_leds_control_pkg.egg-info/dependency_links.txt
+[6.446s] writing entry points to four_leds_control_pkg.egg-info/entry_points.txt
+[6.446s] writing requirements to four_leds_control_pkg.egg-info/requires.txt
+[6.446s] writing top-level names to four_leds_control_pkg.egg-info/top_level.txt
+[6.451s] reading manifest file 'four_leds_control_pkg.egg-info/SOURCES.txt'
+[6.453s] writing manifest file 'four_leds_control_pkg.egg-info/SOURCES.txt'
+[6.457s] running build_ext
+[6.458s] Creating /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages/four-leds-control-pkg.egg-link (link to .)
+[6.460s] Installing joystick_4_buttons script to /home/rover/my_rover_ws/install/four_leds_control_pkg/lib/four_leds_control_pkg
+[6.461s] 
+[6.461s] Installed /home/rover/my_rover_ws/build/four_leds_control_pkg
+[6.461s] running symlink_data
+[7.092s] Invoked command in '/home/rover/my_rover_ws/build/four_leds_control_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/four_leds_control_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/four_leds_control_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/four_leds_control_pkg/build --no-deps symlink_data

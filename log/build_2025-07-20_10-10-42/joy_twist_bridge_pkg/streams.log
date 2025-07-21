@@ -1,0 +1,20 @@
+[4.578s] Invoking command in '/home/rover/my_rover_ws/build/joy_twist_bridge_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/joy_twist_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/joy_twist_bridge_pkg/build --no-deps symlink_data --force
+[5.199s] running develop
+[5.566s] running egg_info
+[5.567s] writing joy_twist_bridge_pkg.egg-info/PKG-INFO
+[5.567s] writing dependency_links to joy_twist_bridge_pkg.egg-info/dependency_links.txt
+[5.567s] writing entry points to joy_twist_bridge_pkg.egg-info/entry_points.txt
+[5.568s] writing requirements to joy_twist_bridge_pkg.egg-info/requires.txt
+[5.568s] writing top-level names to joy_twist_bridge_pkg.egg-info/top_level.txt
+[5.573s] reading manifest file 'joy_twist_bridge_pkg.egg-info/SOURCES.txt'
+[5.574s] writing manifest file 'joy_twist_bridge_pkg.egg-info/SOURCES.txt'
+[5.578s] running build_ext
+[5.578s] Creating /home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/python3.10/site-packages/joy-twist-bridge-pkg.egg-link (link to .)
+[5.580s] Installing joy_to_twist script to /home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/joy_twist_bridge_pkg
+[5.581s] 
+[5.581s] Installed /home/rover/my_rover_ws/build/joy_twist_bridge_pkg
+[5.581s] running symlink_data
+[5.582s] symbolically linking /home/rover/my_rover_ws/build/joy_twist_bridge_pkg/resource/joy_twist_bridge_pkg -> /home/rover/my_rover_ws/install/joy_twist_bridge_pkg/share/ament_index/resource_index/packages
+[5.582s] symbolically linking /home/rover/my_rover_ws/build/joy_twist_bridge_pkg/package.xml -> /home/rover/my_rover_ws/install/joy_twist_bridge_pkg/share/joy_twist_bridge_pkg
+[5.582s] symbolically linking /home/rover/my_rover_ws/build/joy_twist_bridge_pkg/launch/joy.launch.py -> /home/rover/my_rover_ws/install/joy_twist_bridge_pkg/share/joy_twist_bridge_pkg/launch
+[5.738s] Invoked command in '/home/rover/my_rover_ws/build/joy_twist_bridge_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/joy_twist_bridge_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/rover/my_rover_ws/build/joy_twist_bridge_pkg/build --no-deps symlink_data --force
