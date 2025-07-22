@@ -1,0 +1,24 @@
+[2.800s] Invoking command in '/home/rover/my_rover_ws/src/odometry_patcher_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/odometry_patcher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/odometry_patcher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_patcher_pkg build --build-base /home/rover/my_rover_ws/build/odometry_patcher_pkg/build install --record /home/rover/my_rover_ws/build/odometry_patcher_pkg/install.log --single-version-externally-managed install_data
+[3.401s] running egg_info
+[3.403s] writing ../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info/PKG-INFO
+[3.404s] writing dependency_links to ../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info/dependency_links.txt
+[3.404s] writing entry points to ../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info/entry_points.txt
+[3.405s] writing requirements to ../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info/requires.txt
+[3.405s] writing top-level names to ../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info/top_level.txt
+[3.408s] reading manifest file '../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info/SOURCES.txt'
+[3.410s] writing manifest file '../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info/SOURCES.txt'
+[3.410s] running build
+[3.411s] running build_py
+[3.411s] copying odometry_patcher_pkg/odometry_covariance_patcher.py -> /home/rover/my_rover_ws/build/odometry_patcher_pkg/build/lib/odometry_patcher_pkg
+[3.411s] running install
+[3.412s] running install_lib
+[3.414s] copying /home/rover/my_rover_ws/build/odometry_patcher_pkg/build/lib/odometry_patcher_pkg/odometry_covariance_patcher.py -> /home/rover/my_rover_ws/install/odometry_patcher_pkg/lib/python3.10/site-packages/odometry_patcher_pkg
+[3.418s] byte-compiling /home/rover/my_rover_ws/install/odometry_patcher_pkg/lib/python3.10/site-packages/odometry_patcher_pkg/odometry_covariance_patcher.py to odometry_covariance_patcher.cpython-310.pyc
+[3.420s] running install_data
+[3.420s] running install_egg_info
+[3.424s] removing '/home/rover/my_rover_ws/install/odometry_patcher_pkg/lib/python3.10/site-packages/odometry_patcher_pkg-0.1.0-py3.10.egg-info' (and everything under it)
+[3.425s] Copying ../../build/odometry_patcher_pkg/odometry_patcher_pkg.egg-info to /home/rover/my_rover_ws/install/odometry_patcher_pkg/lib/python3.10/site-packages/odometry_patcher_pkg-0.1.0-py3.10.egg-info
+[3.427s] running install_scripts
+[3.474s] Installing odometry_covariance_patcher script to /home/rover/my_rover_ws/install/odometry_patcher_pkg/lib/odometry_patcher_pkg
+[3.474s] writing list of installed files to '/home/rover/my_rover_ws/build/odometry_patcher_pkg/install.log'
+[3.557s] Invoked command in '/home/rover/my_rover_ws/src/odometry_patcher_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/odometry_patcher_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/odometry_patcher_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/odometry_patcher_pkg build --build-base /home/rover/my_rover_ws/build/odometry_patcher_pkg/build install --record /home/rover/my_rover_ws/build/odometry_patcher_pkg/install.log --single-version-externally-managed install_data

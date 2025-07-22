@@ -1,0 +1,21 @@
+[4.795s] Invoking command in '/home/rover/my_rover_ws/src/lidar_safety_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_safety_pkg build --build-base /home/rover/my_rover_ws/build/lidar_safety_pkg/build install --record /home/rover/my_rover_ws/build/lidar_safety_pkg/install.log --single-version-externally-managed install_data
+[5.381s] running egg_info
+[5.383s] writing ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/PKG-INFO
+[5.384s] writing dependency_links to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/dependency_links.txt
+[5.384s] writing entry points to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/entry_points.txt
+[5.384s] writing requirements to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/requires.txt
+[5.384s] writing top-level names to ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/top_level.txt
+[5.390s] reading manifest file '../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/SOURCES.txt'
+[5.395s] writing manifest file '../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info/SOURCES.txt'
+[5.395s] running build
+[5.395s] running build_py
+[5.396s] running install
+[5.396s] running install_lib
+[5.399s] running install_data
+[5.400s] running install_egg_info
+[5.405s] removing '/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.406s] Copying ../../build/lidar_safety_pkg/lidar_safety_pkg.egg-info to /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages/lidar_safety_pkg-0.0.0-py3.10.egg-info
+[5.409s] running install_scripts
+[5.458s] Installing obstacle_detector_node script to /home/rover/my_rover_ws/install/lidar_safety_pkg/lib/lidar_safety_pkg
+[5.459s] writing list of installed files to '/home/rover/my_rover_ws/build/lidar_safety_pkg/install.log'
+[5.562s] Invoked command in '/home/rover/my_rover_ws/src/lidar_safety_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/lidar_safety_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/lidar_safety_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_safety_pkg build --build-base /home/rover/my_rover_ws/build/lidar_safety_pkg/build install --record /home/rover/my_rover_ws/build/lidar_safety_pkg/install.log --single-version-externally-managed install_data

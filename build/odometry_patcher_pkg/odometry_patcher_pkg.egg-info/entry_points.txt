@@ -1,0 +1,3 @@
+[console_scripts]
+odometry_covariance_patcher = odometry_patcher_pkg.odometry_covariance_patcher:main
+

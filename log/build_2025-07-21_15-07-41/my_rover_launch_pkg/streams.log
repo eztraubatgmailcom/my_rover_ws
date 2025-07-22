@@ -1,0 +1,23 @@
+[4.617s] Invoking command in '/home/rover/my_rover_ws/src/my_rover_launch_pkg': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rover_launch_pkg build --build-base /home/rover/my_rover_ws/build/my_rover_launch_pkg/build install --record /home/rover/my_rover_ws/build/my_rover_launch_pkg/install.log --single-version-externally-managed install_data
+[5.215s] running egg_info
+[5.218s] writing ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/PKG-INFO
+[5.219s] writing dependency_links to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/dependency_links.txt
+[5.221s] writing entry points to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/entry_points.txt
+[5.222s] writing requirements to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/requires.txt
+[5.223s] writing top-level names to ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/top_level.txt
+[5.231s] reading manifest file '../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/SOURCES.txt'
+[5.234s] writing manifest file '../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info/SOURCES.txt'
+[5.235s] running build
+[5.235s] running build_py
+[5.241s] running install
+[5.242s] running install_lib
+[5.248s] running install_data
+[5.249s] copying launch/gps_ekf.launch.py -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/launch
+[5.256s] copying config/ekf.yaml -> /home/rover/my_rover_ws/install/my_rover_launch_pkg/share/my_rover_launch_pkg/config
+[5.259s] running install_egg_info
+[5.265s] removing '/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.272s] Copying ../../build/my_rover_launch_pkg/my_rover_launch_pkg.egg-info to /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages/my_rover_launch_pkg-0.0.0-py3.10.egg-info
+[5.284s] running install_scripts
+[5.335s] Installing static_tf_gps script to /home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/my_rover_launch_pkg
+[5.336s] writing list of installed files to '/home/rover/my_rover_ws/build/my_rover_launch_pkg/install.log'
+[5.499s] Invoked command in '/home/rover/my_rover_ws/src/my_rover_launch_pkg' returned '0': PYTHONPATH=/home/rover/my_rover_ws/build/my_rover_launch_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rover/my_rover_ws/install/my_rover_launch_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_rover_launch_pkg build --build-base /home/rover/my_rover_ws/build/my_rover_launch_pkg/build install --record /home/rover/my_rover_ws/build/my_rover_launch_pkg/install.log --single-version-externally-managed install_data

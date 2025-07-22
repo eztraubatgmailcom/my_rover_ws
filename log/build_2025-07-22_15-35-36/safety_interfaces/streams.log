@@ -1,0 +1,120 @@
+[1.290s] Invoking command in '/home/rover/my_rover_ws/build/safety_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/odometry_patcher_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rover/my_rover_ws/build/safety_interfaces -- -j6 -l6
+[1.942s] [  3%] Built target safety_interfaces__cpp
+[1.943s] [ 12%] Built target safety_interfaces__rosidl_generator_c
+[1.944s] [ 12%] Built target ament_cmake_python_symlink_safety_interfaces
+[1.945s] [ 22%] Built target safety_interfaces__rosidl_typesupport_cpp
+[1.946s] [ 32%] Built target safety_interfaces__rosidl_typesupport_c
+[1.947s] [ 41%] Built target safety_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.948s] [ 51%] Built target safety_interfaces__rosidl_typesupport_introspection_cpp
+[1.949s] [ 61%] Built target safety_interfaces__rosidl_typesupport_introspection_c
+[1.950s] [ 70%] Built target safety_interfaces__rosidl_typesupport_fastrtps_c
+[1.951s] [ 70%] Built target safety_interfaces
+[1.951s] [ 74%] Built target safety_interfaces__py
+[1.951s] [ 80%] Built target safety_interfaces__rosidl_generator_py
+[1.952s] [ 90%] Built target safety_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.952s] [ 93%] Built target safety_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.952s] [100%] Built target safety_interfaces__rosidl_typesupport_c__pyext
+[2.015s] running egg_info
+[2.016s] writing safety_interfaces.egg-info/PKG-INFO
+[2.017s] writing dependency_links to safety_interfaces.egg-info/dependency_links.txt
+[2.017s] writing top-level names to safety_interfaces.egg-info/top_level.txt
+[2.031s] reading manifest file 'safety_interfaces.egg-info/SOURCES.txt'
+[2.031s] writing manifest file 'safety_interfaces.egg-info/SOURCES.txt'
+[2.130s] [100%] Built target ament_cmake_python_build_safety_interfaces_egg
+[2.157s] Invoked command in '/home/rover/my_rover_ws/build/safety_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/odometry_patcher_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rover/my_rover_ws/build/safety_interfaces -- -j6 -l6
+[2.158s] Invoking command in '/home/rover/my_rover_ws/build/safety_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/odometry_patcher_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rover/my_rover_ws/build/safety_interfaces
+[2.172s] -- Install configuration: ""
+[2.173s] -- Execute custom install script
+[2.174s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/ament_index/resource_index/rosidl_interfaces/safety_interfaces
+[2.175s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__functions.h
+[2.175s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__struct.h
+[2.175s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__type_support.h
+[2.175s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/rosidl_generator_c__visibility_control.h
+[2.176s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/safety_status.h
+[2.177s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/library_path.sh
+[2.177s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/library_path.dsv
+[2.178s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__rosidl_typesupport_fastrtps_c.h
+[2.178s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.179s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__builder.hpp
+[2.179s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__struct.hpp
+[2.179s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__traits.hpp
+[2.180s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__type_support.hpp
+[2.180s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.180s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/safety_status.hpp
+[2.181s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.181s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.182s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__rosidl_typesupport_introspection_c.h
+[2.182s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.182s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/include/safety_interfaces/safety_interfaces/msg/detail/safety_status__rosidl_typesupport_introspection_cpp.hpp
+[2.183s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/pythonpath.sh
+[2.183s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/pythonpath.dsv
+[2.184s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[2.184s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.184s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.184s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[2.186s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/__init__.py
+[2.186s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/_safety_interfaces_s.ep.rosidl_typesupport_c.c
+[2.186s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/_safety_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.186s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/_safety_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[2.186s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/libsafety_interfaces__rosidl_generator_py.so
+[2.187s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/msg/__init__.py
+[2.187s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/msg/_safety_status.py
+[2.187s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/msg/_safety_status_s.c
+[2.187s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/safety_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.188s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/safety_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.188s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/safety_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.189s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/safety_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.189s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/safety_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.190s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/safety_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.190s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/msg/SafetyStatus.idl
+[2.190s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/msg/SafetyStatus.msg
+[2.191s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/ament_index/resource_index/package_run_dependencies/safety_interfaces
+[2.191s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/ament_index/resource_index/parent_prefix_path/safety_interfaces
+[2.192s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/ament_prefix_path.sh
+[2.193s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/ament_prefix_path.dsv
+[2.193s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/path.sh
+[2.193s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/environment/path.dsv
+[2.193s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/local_setup.bash
+[2.193s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/local_setup.sh
+[2.194s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/local_setup.zsh
+[2.194s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/local_setup.dsv
+[2.194s] -- Symlinking: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/package.dsv
+[2.219s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/ament_index/resource_index/packages/safety_interfaces
+[2.219s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/rosidl_cmake-extras.cmake
+[2.220s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.220s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.220s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[2.222s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[2.222s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.222s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.222s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfacesConfig.cmake
+[2.224s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfacesConfig-version.cmake
+[2.224s] -- Up-to-date symlink: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/package.xml
+[2.224s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_generator_c.so
+[2.225s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_typesupport_fastrtps_c.so
+[2.226s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[2.226s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_typesupport_introspection_c.so
+[2.226s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_typesupport_c.so
+[2.227s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_typesupport_introspection_cpp.so
+[2.228s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_typesupport_cpp.so
+[2.309s] Listing '/home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces'...
+[2.309s] Listing '/home/rover/my_rover_ws/install/safety_interfaces/local/lib/python3.10/dist-packages/safety_interfaces/msg'...
+[2.322s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/lib/libsafety_interfaces__rosidl_generator_py.so
+[2.323s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_generator_cExport.cmake
+[2.323s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_generator_cExport-noconfig.cmake
+[2.323s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[2.323s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.324s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_generator_cppExport.cmake
+[2.324s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.324s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.324s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[2.324s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.324s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_cExport.cmake
+[2.325s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[2.325s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[2.325s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.325s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_cppExport.cmake
+[2.325s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/safety_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[2.325s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_generator_pyExport.cmake
+[2.326s] -- Up-to-date: /home/rover/my_rover_ws/install/safety_interfaces/share/safety_interfaces/cmake/export_safety_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[2.339s] Invoked command in '/home/rover/my_rover_ws/build/safety_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rover/my_rover_ws/install/vertical_lidar_logger_pkg:/home/rover/my_rover_ws/install/ps_serial_utils_pkg:/home/rover/my_rover_ws/install/pan_tilt_control_pkg:/home/rover/my_rover_ws/install/odometry_patcher_pkg:/home/rover/my_rover_ws/install/my_rover_launch_pkg:/home/rover/my_rover_ws/install/lidar_safety_pkg:/home/rover/my_rover_ws/install/keyboard_controller_pkg:/home/rover/my_rover_ws/install/joy_twist_bridge_pkg:/home/rover/my_rover_ws/install/gps_navigator_pkg:/home/rover/my_rover_ws/install/four_leds_control_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rover/my_rover_ws/build/safety_interfaces
